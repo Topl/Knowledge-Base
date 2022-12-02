@@ -3,7 +3,7 @@ title: "Blockchain and Commitments"
 slug: "blockchain"
 hidden: false
 createdAt: "2021-03-30T14:40:21.822Z"
-updatedAt: "2021-05-10T17:55:56.196Z"
+updatedAt: "2022-12-02T20:41:49.583Z"
 ---
 A broad view of Topl might divide the world into two major parts: the blockchain and commitments
 

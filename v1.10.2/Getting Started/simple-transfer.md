@@ -3,24 +3,8 @@ title: "Assets"
 slug: "simple-transfer"
 hidden: false
 createdAt: "2021-03-30T15:10:50.375Z"
-updatedAt: "2021-11-10T19:12:43.621Z"
+updatedAt: "2022-10-28T14:20:04.707Z"
 ---
-In this tutorial, we're going to deploy, store, and transfer Assets! 
-[block:callout]
-{
-  "type": "success",
-  "title": "",
-  "body": "You can see this flow in a recipe. The recipe is fully interactive, so go check it out below!"
-}
-[/block]
-
-[block:callout]
-{
-  "type": "info",
-  "title": "",
-  "body": "Instructions that require you take action are always included in a callout box like this one. These highlighted actions are all that you need to do to get your code running, but reading the rest is important to understand how everything works!"
-}
-[/block]
 Assets are a critical part of our blockchain technology. Assets are homogeneous tokens that can be transferred to other users and spent as currency (e.g. ERC-20 on Ethereum). In addition, users can store meta-data as part of the process of creating an asset, allowing users to store arbitrary information on the Topl Blockchain. 
 
 Usually, a central ledger keeps track of a user's token balances. Topl implements Assets in a way that avoids having a centralized account ledger. 

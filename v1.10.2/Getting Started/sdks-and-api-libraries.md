@@ -3,8 +3,15 @@ title: "SDKs and API Libraries"
 slug: "sdks-and-api-libraries"
 hidden: false
 createdAt: "2021-08-31T18:33:22.917Z"
-updatedAt: "2021-10-04T18:57:14.340Z"
+updatedAt: "2022-09-20T14:23:10.107Z"
 ---
+[block:callout]
+{
+  "type": "danger",
+  "body": "Warning: The Topl SDK libraries for the Dion mainnet and testnet, Toplnet and Valhalla respectively, are currently deprecated in order to focus new development on the new version of the Topl blockchain, Tetra. The Dion SDK libraries are usable, but it is highly recommended to focus new development through the [DAML](doc:daml) smart contract integration.",
+  "title": "# Deprecated"
+}
+[/block]
 #Overview 
 
 Topl has a collection of tools which makes it easier to integrate with the Topl blockchain. Depending on the use-cases you have, you may use any of the components below.

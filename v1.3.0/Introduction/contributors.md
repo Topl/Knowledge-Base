@@ -3,7 +3,7 @@ title: "Contributors"
 slug: "contributors"
 hidden: false
 createdAt: "2021-03-25T17:51:42.285Z"
-updatedAt: "2021-08-25T18:28:45.957Z"
+updatedAt: "2022-09-12T16:57:30.598Z"
 ---
 # Contributing to the Brambl libraries
 
@@ -26,7 +26,7 @@ Before you get lost in the repository, here are a few starting points
 for you to check out. You might find that others have had similar
 questions or that your question rather belongs in one place than another.
 
-* Chat: https://discord.gg/CHaG8utU
+* Chat: https://discord.com/invite/WVPGaG5Cqc
 * Website: https://www.topl.co/
 * Twitter: https://twitter.com/topl_protocol
 

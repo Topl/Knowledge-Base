@@ -3,18 +3,11 @@ title: "Registration and Login"
 slug: "registration-and-login"
 hidden: false
 createdAt: "2021-03-22T16:32:04.887Z"
-updatedAt: "2021-10-12T20:02:53.528Z"
+updatedAt: "2022-12-02T20:41:24.426Z"
 ---
-[block:callout]
-{
-  "type": "info",
-  "title": "Note:",
-  "body": "For this tutorial, please visit our BaaS portal website at [BaaS](https://beta.topl.services)."
-}
-[/block]
 ## <<glossary:BaaS>> Portal Registration
 
-In order to access <<glossary:BaaS>> functionality, a user must first register with Topl.
+In order to access <<glossary:BaaS>> functionality, a user must [first register with Topl](https://topl.services/signin).
 
 
 [block:image]
