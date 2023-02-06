@@ -9,7 +9,7 @@ const config = {
   title: 'Topl',
   tagline: '',
   url: 'https://topl.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/Developer-Portal/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
