@@ -13,7 +13,7 @@ Use one of the following endpoints as url to which you will connect with a Bramb
 {
   "type": "info",
   "title": "Note",
-  "body": "Be sure to replace `YOUR-PROJECT-ID` with a Project ID from your [BaaS Dashboard](topl.services)"
+  "body": "Be sure to replace `YOUR-PROJECT-ID` with a Project ID from your [BaaS Dashboard](https://topl.services)"
 }
 [/block]
 
