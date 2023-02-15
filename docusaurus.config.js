@@ -78,15 +78,12 @@ const config = {
         },
         items: [
           {
-          type: 'docsVersionDropdown'
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorial',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/topl/developer-portal',
             label: 'GitHub',
