@@ -1,4 +1,4 @@
-# Developer-Portal
+# Topl's Knowledge Base
 The central repository for documentation and code examples to build on the Topl blockchain.
 
 # Website
