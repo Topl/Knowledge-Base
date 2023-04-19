@@ -62,6 +62,7 @@ const config = {
         logo: {
           alt: 'Topl',
           src: 'img/topl_logo_horizontal.svg',
+          srcDark: 'img/topl_logo_white.svg'
         },
         items: [
           {
