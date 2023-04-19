@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/Developer-Portal/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cropped-topl_favicon_new-32x32.png',
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -58,19 +58,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Topl Developer Portal',
+        title: '',
         logo: {
           alt: 'Topl',
-          src: 'img/logo_topl.svg',
+          src: 'img/topl_logo_horizontal.svg',
         },
         items: [
+          {
+            to: '/blog',
+            label: 'About',
+            position: 'left'
+          },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Developers',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/topl/developer-portal',
             label: 'GitHub',
