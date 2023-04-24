@@ -9,7 +9,7 @@ const config = {
   title: 'Topl',
   tagline: '',
   url: 'https://topl.github.io',
-  baseUrl: '/Developer-Portal/',
+  baseUrl: '/knowledge-base/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/cropped-topl_favicon_new-32x32.png',
@@ -40,13 +40,13 @@ const config = {
           editUrl:
             'https://github.com/Topl/knowledge-base',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Topl/knowledge-base',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/Topl/knowledge-base',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,15 +67,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'about/new--welcome',
+            docId: 'About/new--welcome',
             position: 'left',
-            label: 'about',
+            label: 'About',
           },
           {
             type: 'doc',
-            docId: 'developer/Getting Started/introduction',
+            docId: 'Developer/Getting Started/introduction',
             position: 'left',
-            label: 'developer',
+            label: 'Developer',
           },
           {
             href: 'https://github.com/topl/knowledge-base',
@@ -90,10 +90,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -113,7 +109,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/topl/developer-portal',
+                href: 'https://github.com/topl/knowledge-base',
               },
             ],
           },
