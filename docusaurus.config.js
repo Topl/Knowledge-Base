@@ -11,7 +11,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Topl',
   tagline: '',
-  url: 'https://docs.topl.co',
+  url: 'http://docs.topl.co',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
