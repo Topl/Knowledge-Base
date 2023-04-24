@@ -9,16 +9,16 @@ const config = {
   title: 'Topl',
   tagline: '',
   url: 'https://topl.github.io',
-  baseUrl: '/Developer-Portal/',
+  baseUrl: '/knowledge-base/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cropped-topl_favicon_new-32x32.png',
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'topl', // Usually your GitHub org/user name.
-  projectName: 'developer-portal', // Usually your repo name.
+  projectName: 'knowledge-base', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,15 +38,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Topl/Developer-Portal',
+            'https://github.com/Topl/knowledge-base',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Topl/Developer-Portal',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/Topl/knowledge-base',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -58,21 +58,27 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Topl Developer Portal',
+        title: '',
         logo: {
           alt: 'Topl',
-          src: 'img/logo_topl.svg',
+          src: 'img/topl_logo_horizontal.svg',
+          srcDark: 'img/topl_logo_white.svg'
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'About/new--welcome',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/topl/developer-portal',
+            type: 'doc',
+            docId: 'Developer/Getting Started/introduction',
+            position: 'left',
+            label: 'Developer',
+          },
+          {
+            href: 'https://github.com/topl/knowledge-base',
             label: 'GitHub',
             position: 'right',
           },
@@ -82,21 +88,8 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: './docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -116,7 +109,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/topl/developer-portal',
+                href: 'https://github.com/topl/knowledge-base',
               },
             ],
           },
