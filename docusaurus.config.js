@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Topl',
   tagline: '',
-  url: 'https://topl.github.io',
-  baseUrl: '/Knowledge-Base/',
+  url: 'docs.topl.co',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/cropped-topl_favicon_new-32x32.png',
