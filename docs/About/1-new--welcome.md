@@ -1,6 +1,6 @@
 ---
 title: "About Topl"
-slug: "about-topl"
+slug: "/"
 excerpt: "Topl is a new interoperable blockchain protocol that aims to create a sustainable, inclusive economy."
 hidden: false
 createdAt: "2021-03-25T17:37:46.969Z"
