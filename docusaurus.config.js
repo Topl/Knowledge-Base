@@ -67,13 +67,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'about/intro',
             position: 'left',
             label: 'about',
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'developer/Getting Started/introduction',
             position: 'left',
             label: 'developer',
           },
