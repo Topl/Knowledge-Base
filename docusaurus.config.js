@@ -34,6 +34,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -62,7 +63,8 @@ const config = {
         logo: {
           alt: 'Topl',
           src: 'img/topl_logo_horizontal.svg',
-          srcDark: 'img/topl_logo_white.svg'
+          srcDark: 'img/topl_logo_white.svg',
+          href: 'https://topl.co',
         },
         items: [
           {
