@@ -1,7 +1,7 @@
 ---
 title: "Transacting with Topl"
-slug: "taktikos"
-excerpt: "Taktikos Consensus"
+slug: "transacting-with-topl"
+excerpt: "Transacting with Topl"
 hidden: false
 createdAt: "2021-03-25T17:37:46.969Z"
 updatedAt: "2021-10-12T19:57:13.249Z"
