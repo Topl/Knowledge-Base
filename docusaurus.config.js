@@ -28,6 +28,9 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
   presets: [
     [
       'classic',
@@ -57,6 +60,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        }
+      },
       navbar: {
         title: '',
         logo: {
