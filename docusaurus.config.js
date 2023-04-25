@@ -121,7 +121,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://medium.com/topl-blog',
               },
               {
                 label: 'GitHub',
