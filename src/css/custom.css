@@ -15,6 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* --ifm-font-family-base: 'Inter-Regular'; */
+  --ifm-font-family-base: 'Inter-Medium';
+  --ifm-font-family-monospace: 'Inter-Regular';
+  --ifm-font-family-headings: 'Inter-Bold';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,4 +35,24 @@
 
 [data-theme='dark'] .navbar {
   background: linear-gradient(to right, #240C67, #8764EA);
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url(../../static/fonts/inter/Inter-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(../../static/fonts/inter/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url(../../static/fonts/inter/Inter-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(../../static/fonts/inter/Inter-Bold.ttf) format('truetype');
 }
