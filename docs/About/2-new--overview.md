@@ -9,7 +9,7 @@ updatedAt: "2021-10-12T19:57:13.249Z"
 
 # Introduction
 ### *What is Topl?*
-</br>
+<br />
 Topl believes in a better world. A world where economic growth lives in harmony with a flourishing environment. A world of positive-sum economics where systems of self-reinforcing inequity no longer undermine societies.
 
 Topl is the infrastructure to power this new world.
@@ -22,11 +22,11 @@ As an infrastructure for economic innovation, Topl solves two key challenges: 1)
 
 [Read more](https://docs.topl.co/About/introduction)
 
-</br>
+<br />
 
 # Topl's Theory of Change
 ### *Topl's vision for the world*
-</br>
+<br />
 ## Positive Sum Economics
 
 Topl’s theory of change centers around enabling the monetization of positive impact or “building good” in the world. Our technological innovation is designed to unlock new economic systems that fully account for both the positive and negative impacts of our economic actions.
@@ -37,7 +37,7 @@ To understand Topl’s theory of change, we must first recognize that all of the
 
 > For Topl, “building good” means building the rails to unlock new economic systems that consider not only an immediate share price or short-term profit margin but also fully recognize and embrace that we live in a collective and interdependent ecosystem. And whether that ecosystem flourishes or declines is something that has fundamental effects on every single one of us.
 
-</br>
+<br />
 
 ## Exemplary Pillars
 To better understand the what and how of Topl, we first move from the lofty goal of establishing a new, more sustainable, and inclusive economic system to concrete examples.
@@ -56,11 +56,11 @@ Topl derives inspiration from early work done turning carbon into a tradable, mo
 
 [Read more](https://docs.topl.co/About/theory-of-change)
 
-</br>
+<br />
 
 # Design Philosophy
 ### *How did Topl design its protocol?*
-</br>
+<br />
 
 ## Defining “sustainable and inclusive”
 There are many terms that can describe the sort of new economic reality that Topl will power with its infrastructure, but we choose root ourselves in two—sustainable and inclusive—as the most appropriate.
@@ -81,13 +81,13 @@ In our view, a problem should have three characteristics to be well fit for this
 
 [Read more](https://docs.topl.co/About/design-philosophy)
 
-</br>
+<br />
 
 
 # Taktikos Consensus
 
 ### *How is the Topl protocol secured?*
-</br>
+<br />
 A blockchain’s consensus algorithm plays a crucial role in its overall design, directly governing the rules of transaction confirmation and indirectly determining a chain’s energy footprint and level of decentralization. The importance of blockchain consensus leads protocol designers to endeavor to closely balance solid fundamentals with promising advances. This is exactly what Topl’s team has achieved with the creation of its proof of stake (POS) protocol, Taktikos, the first regularized Nakamoto consensus protocol.
 
 **Block predictability.** First, and perhaps most simply, Taktikos provides greater predictability in block production. By weighting block production into the forging window, Topl’s consensus protocol concentrates the average time it takes for a block to be produced, giving the network greater predictability and preventing network stalls.
@@ -101,11 +101,11 @@ A blockchain’s consensus algorithm plays a crucial role in its overall design,
 
 [Read more](https://docs.topl.co/About/taktikos)
 
-</br>
+<br />
 
 # Transacting with Topl
 ### *How to build atop and interact with the Topl protocol*
-</br>
+<br />
 
 ## Ledger Logic
 To provide a blockchain protocol capable of being both performant and featureful, Topl offers a dual-layer ledger logic system consisting of its optimized domain-specific language (DSL), Quivr, along with support for layer 2 Turing-complete smart contracts.
@@ -142,20 +142,20 @@ An SDK gives application developers an easy-to-integrate library that will both 
 
 [Read more](https://docs.topl.co/About/transacting-with-topl)
 
-</br>
+<br />
 
 # Tokenomics
 ### *An overview of Topl’s two token system, the TOPL and the LVL*
-</br>
+<br />
 As a blockchain protocol, Topl is one of a select few chains utilizing a dual token model. The abilities to participate in block production (staking) and governance are gated by the TOPL, while transaction fees throughout the system are denominated and paid in LVLs (pronounced “levels”).
 
 Topl’s choice to develop our own blockchain protocol allows us to correct the mistake inherent in nearly all other blockchain systems—forcing users to think about and use something as a currency without any currency properties to it. Exchange and payment are different from staking and governance, so the token design must be different too.
 
-</br>
+<br />
 
 ## TOPLs
 ### *Understanding Topl’s staking and governance token, $TOPL*
-</br>
+<br />
 $TOPL is the staking and governance token of the Topl protocol. The ability to participate in block production via staking and the right to vote in the protocol’s governance are both gated by ownership of $TOPL.
 
 ## Staking Participation
