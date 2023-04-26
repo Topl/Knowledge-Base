@@ -9,12 +9,12 @@ updatedAt: "2021-10-12T19:57:13.249Z"
 # Whitepaper
 
 The Topl Whitepaper is presented in the following sections:
-1. [Introduction](https://docs.topl.co/About/introduction)
-2. [Theory of Change](https://docs.topl.co/About/theory-of-change)
-3. [Design Philosophy](https://docs.topl.co/About/design-philosophy)
-4. [Taktikos Consensus](https://docs.topl.co/About/taktikos)
-5. [Transacting with Topl](https://docs.topl.co/About/transacting-with-topl)
-6. [Tokenomics](https://docs.topl.co/About/tokenomics)
+1. [Introduction](docs/About/4-new--introduction-to-topl.md)
+2. [Theory of Change](docs/About/5-new--theory-of-change.md)
+3. [Design Philosophy](docs/About/6-new--design-philosophy.md)
+4. [Taktikos Consensus](docs/About/7-new--taktikos-consensus.md)
+5. [Transacting with Topl](docs/About/8-new--transacting-with-topl.md)
+6. [Tokenomics](docs/About/9-new--tokenomics.md)
 
 
 <! --- Download the Topl Whitepaper [here](https://www.example.com). --->
