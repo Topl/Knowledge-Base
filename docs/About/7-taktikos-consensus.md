@@ -2,9 +2,6 @@
 title: "Taktikos Consensus"
 slug: "taktikos"
 excerpt: "Taktikos Consensus"
-hidden: false
-createdAt: "2021-03-25T17:37:46.969Z"
-updatedAt: "2021-10-12T19:57:13.249Z"
 ---
 
 # Taktikos Consensus
