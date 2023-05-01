@@ -47,7 +47,7 @@ Typically, a blockchain protocol includes no guidance or support on methods of t
 
 ### Asset Lifecycle
 To create assets with TAM, a user must first register two distinct policies on chain, a Group Policy and a Series Policy. Through the process of registration, a user commits to certain off-chain data that will govern the properties and behaviors of associated asset tokens on-chain. These properties might include things like supply, restrictions on additional minting, or off-chain metadata These commitments to off-chain data are realized through the creation of two tokens, a Group Token and Series Token respectively, that contain verifiable evidence of the associated off-chain commitments.
-![alt text](../../static/img/whitepaper/TAM-assets.png)
+![alt text](../../../static/img/whitepaper/TAM-assets.png)
 *View of TAM assets on the ledger. Each token bundle is owned by either Alice or Bob and each asset token references a Group Policy and a Series Policy.*
 
 ### Levels of Fungibility
