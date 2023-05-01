@@ -2,11 +2,7 @@
 title: "TOPLs"
 slug: "/about/tokenomics/topls"
 excerpt: "TOPLs"
-hidden: false
-createdAt: "2021-03-25T17:37:46.969Z"
-updatedAt: "2021-10-12T19:57:13.249Z"
 ---
-
 # TOPLs
 ### Understanding Topl’s staking and governance token, the TOPL
 
@@ -19,7 +15,7 @@ TOPL is the native staking token for the Topl blockchain, powering our Taktikos 
 
 **No staking minimum.** The existence of staking and sometimes even delegation minimum, means that most PoS blockchains are preventing a sizeable fraction of their potential token base from being able to participate in securing the network and, therefore, compromising the security of the entire protocol. For example, if a blockchain’s staking token has a total market cap of $100MM, but only $60MM of those tokens are actively staking, the cost to compromise the network is not $50MM (plus $0.01), but rather only $30MM.
 
-**Emergent Pools.** Delegation is the conventional answer to how to enable smaller token holders to participate in staking rewards for a protocol. While certainly the simplest solution, delegation does greatly increase the level of centralization and, therefore, the risk of centralized modes of failure, as it’s not uncommon to see 20-30% of a token’s total supply in a single pool. Instead of focusing on delegation, Topl once again takes advantage of its unique consensus protocol to enable a novel solution. Block production in Taktikos is divided into slots or rounds (much as it may be in a BFT protocol); during each round, each staker will be assigned one or more eligibilities to produce a block for that round. While only one staker will be able to produce a block in a round, each honest staker who is not chosen can still cryptographically publish their eligibilities to be included in the block and subsequently earn a share of the block’s rewards. This way, Topl can ensure smoother and more predictable payouts to smaller token holders without relying on the centralization offered by delegation.
+**Emergent Pools.** Delegation is the conventional answer to how to enable smaller token holders to participate in staking rewards for a protocol. While certainly the simplest solution, delegation does greatly increase the level of centralization and, therefore, the risk of centralized modes of failure, as it’s not uncommon to see 20-30% of a token’s total supply in a single pool. Instead of focusing on delegation, Topl once again takes advantage of its unique consensus protocol to enable a more robust and decentralized solution. The Topl Protocol has the ability to verifiably monitor whether or not a staker is active. At the conclusion of each epoch, block rewards are distributed on a proportional basis, ensuring that while active participation is required, large holdings or centralizing stake pools are not.
 
 ## Supply Dynamics
 Designed to support continued growth and adoption of the Topl ecosystem and  to incentivize active network participation by holders, the $TOPL is an inflationary token with no supply cap, powered by two complementary mechanisms in its design to align incentives positively across the Topl economy.
