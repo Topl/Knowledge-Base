@@ -1,8 +1,3 @@
----
-title: "TOPLs"
-slug: "/about/tokenomics/topls"
-excerpt: "TOPLs"
----
 # TOPLs
 ### Understanding Topl’s staking and governance token, the TOPL
 
