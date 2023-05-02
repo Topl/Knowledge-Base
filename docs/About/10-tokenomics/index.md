@@ -1,3 +1,8 @@
+---
+title: "Tokenomics"
+slug: "tokenomics"
+excerpt: "Tokenomics"
+---
 
 # Tokenomics
 ### An overview of Topl’s two token system, the TOPL and the LVL
