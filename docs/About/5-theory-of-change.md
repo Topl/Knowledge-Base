@@ -2,9 +2,6 @@
 title: "Topl's Theory of Change"
 slug: "theory-of-change"
 excerpt: "Theory of Change"
-hidden: false
-createdAt: "2021-03-25T17:37:46.969Z"
-updatedAt: "2021-10-12T19:57:13.249Z"
 ---
 
 ### Topl's vision for the world

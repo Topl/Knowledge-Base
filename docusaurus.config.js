@@ -79,11 +79,12 @@ const config = {
           src: 'img/topl_logo_horizontal.svg',
           srcDark: 'img/topl_logo_white.svg',
           href: 'https://topl.co',
+          target: '_self',
         },
         items: [
           {
             type: 'doc',
-            docId: 'About/new--welcome',
+            docId: 'About/welcome',
             position: 'left',
             label: 'About',
           },

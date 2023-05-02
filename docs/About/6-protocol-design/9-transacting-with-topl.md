@@ -2,9 +2,6 @@
 title: "Transacting with Topl"
 slug: "transacting-with-topl"
 excerpt: "Transacting with Topl"
-hidden: false
-createdAt: "2021-03-25T17:37:46.969Z"
-updatedAt: "2021-10-12T19:57:13.249Z"
 ---
 
 # Transacting with Topl
@@ -50,7 +47,7 @@ Typically, a blockchain protocol includes no guidance or support on methods of t
 
 ### Asset Lifecycle
 To create assets with TAM, a user must first register two distinct policies on chain, a Group Policy and a Series Policy. Through the process of registration, a user commits to certain off-chain data that will govern the properties and behaviors of associated asset tokens on-chain. These properties might include things like supply, restrictions on additional minting, or off-chain metadata These commitments to off-chain data are realized through the creation of two tokens, a Group Token and Series Token respectively, that contain verifiable evidence of the associated off-chain commitments.
-![alt text](https://1863756668-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FscvgXvB2xT3YUT8UYrBK%2Fuploads%2Fg3AOajIry5IThumA6Tee%2Fimage-20220816-025429.png?alt=media&token=e3f3e3c0-dad9-4060-83c6-737235615243)
+![alt text](../../../static/img/whitepaper/TAM-assets.png)
 *View of TAM assets on the ledger. Each token bundle is owned by either Alice or Bob and each asset token references a Group Policy and a Series Policy.*
 
 ### Levels of Fungibility
