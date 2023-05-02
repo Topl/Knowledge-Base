@@ -22,6 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'topl', // Usually your GitHub org/user name.
   projectName: 'knowledge-base', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -39,9 +40,8 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/Topl/knowledge-base',
+          editUrl: 'https://github.com/Topl/knowledge-base/edit/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -109,7 +109,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/nvaFy4HpUA',
               },
               {
                 label: 'Twitter',
@@ -122,7 +122,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://medium.com/topl-blog',
               },
               {
                 label: 'GitHub',
@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Topl`,
       },
       prism: {
         theme: lightCodeTheme,
