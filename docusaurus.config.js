@@ -96,8 +96,9 @@ const config = {
           },
           {
             href: 'https://github.com/topl/knowledge-base',
-            label: 'GitHub',
             position: 'right',
+            'aria-label': 'GitHub repository',
+            className: 'header-github-link',
           },
         ],
       },
