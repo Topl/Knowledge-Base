@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Topl</ShortName>
+  <Description>Search Topl</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">http://docs.topl.co/img/cropped-topl_favicon_new-32x32.png</Image>
+  <Url type="text/html" method="get" template="http://docs.topl.co/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://docs.topl.co/opensearch.xml" />
+  <moz:SearchForm>http://docs.topl.co/</moz:SearchForm>
+</OpenSearchDescription>
