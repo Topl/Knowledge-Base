@@ -21,14 +21,46 @@ TOPL is the native staking token for the Topl blockchain, powering our Taktikos 
 ## Supply Dynamics
 Designed to support continued growth and adoption of the Topl ecosystem and  to incentivize active network participation by holders, the $TOPL is an inflationary token with no supply cap, powered by two complementary mechanisms in its design to align incentives positively across the Topl economy.
 
-**Growth Inflation.** The $TOPL’s first inflation mechanism is intended to fund the continued operation of the Topl Foundation and Cooperative, the stewards of the Topl protocol and overall ecosystem. The mechanism is originally inspired by the block reward design found in Zcash, in which a portion of the block rewards is assigned to a Zcash development fund. While in Zcash, the share of block rewards to the development fund is a fixed 20%, the rate of new tokens produced to fund the Topl stewards is variable and controlled via a $TOPL holder vote (see table below).
+**Growth Inflation.** TOPL’s first inflation mechanism is intended to fund the continued operation of the Topl Foundation and Cooperative, the stewards of the Topl protocol and overall ecosystem. The mechanism is originally inspired by the block reward design found in Zcash, in which a portion of the block rewards is assigned to a Zcash development fund. While in Zcash, the share of block rewards to the development fund is a fixed 20%, the rate of new tokens produced to fund the Topl stewards is variable and controlled via a $TOPL holder vote (see table below).
 
-**$TOPL Market Capitalization**|**Growth Inflation Rate**
+**TOPL Market Capitalization**|**Growth Inflation Rate**
 :-----:|:-----:
 <$250MM|8% - 16%
 $250MM to $500MM|4% - 8%
 $500MM to $1bn|2% - 4%
 >$1bn|<2%
 
-**Throughput Inflation.** Complementary to the $TOPL’s growth, inflation is a secondary, non-dilutive inflation mechanism. In effect, this second mechanism of inflation looks at the change between two epochs in blockchain’s total transaction throughput and, based on that delta, mints and distributes new $TOPL proportionally to all active $TOPL holders. If between periods n+1 has δ% more transactions than in period n, then sqrt(δ)% $TOPLs are minted and distributed through block rewards. Since this block reward is distributed proportionally to all $TOPL holders active over the previous period, we consider this inflation non-dilutive as the proportional share of all $TOPLs that an honest and active participant will have never decreases due to throughput inflation. The purpose is to further incentivize active staking on the network and discourage passive free-riding on the token’s price appreciation.
-	
+:::info
+
+To determine the relevant rate of rate of _growth inflation_ for any period, **fully unlocked current supply** is used. Fully unlocked current supply includes all tokens presently issued regardless of any lock up or transfer restrictions but does not include tokens planned to be minted through future block rewards or governance.
+
+:::
+
+In the subsquent section detailing [block rewards](./12-incentivizing-network-participation.md#block-rewards) in the Topl protocol, we will see how this allocation to the protocol stewards functions in practice. Additionally the goals and mechanisms for distributing the stewardship treasury is explored in our introduction to Topl's [governance design](./15-governance.md)
+
+**Security Inflation.** Complementary to TOPL’s growth, security inflation is a secondary, **non-dilutive** inflation mechanism. In effect, this second mechanism of inflation inputs the price change of TOPL in LVLs from one epoch to the next and based on this change, mints and distributes new TOPL proportionally to all active TOPL holders. If in _epoch n-1_, the price of TOPL increases by $\delta$ from the price in _epoch n-2_, then ${\delta}^2$ new additional TOPL will be distributed proporotionally in _epoch n+1_ to all active participants from _epoch n-1_. If the price of TOPL decreases from the prior epoch, the security inflation rate will simply be zero.
+
+:::note
+
+The staggering of changes in the rate of TOPL emission, e.g. an input change in _epoch n-1_ adjusting the output only by _epoch n+1_ mirrors the function of Topl's consensus protocol Taktikos and is used to ensure that the network parameters cannot be maniupulated while still enabling fully liquid staking. 
+:::
+
+While growth inflation is individually dilutive but collectively beneficial-as it ensure continued robust investment in the ecosystem, security inflation is both non-dilutive and collectively beneficial. First, since this block reward is distributed proportionally to all TOPL holders active over the previous period, the proportional share of all TOPLs that an honest and active participant will have never decrease due to security inflation.
+
+Second, security inflation is named as such because its constructive purpose is to increase the security of the Topl protocol. While the economic security of a PoS blockchain is often discused in terms of the protocol's market cap, it is more accurate to correlate only the actively staked portion of a protocol's total native token with its economic security in the following way:
+
+$$
+Cost_{attack} = \begin{cases}
+        Stake_{total} \cdot C_{active} \cdot (50\%+1) &\text{for Nakaomoto consensus} \\
+        Stake_{total} \cdot C_{active} \cdot (33\%+1) &\text{for BFT consensus}
+    \end{cases}
+$$
+
+Expressed in this way, we can see that for a given value of total stake, Topl is maximizing the cost of attacking its protocol by designing a mechanism in which any value appreciation in the TOPL is realized only to those who are actively participating in securing the network.
+
+## Emissions Model
+
+At lauch, the Topl protocol will have 200 million TOPL in its genesis block distributed to the initial team, early backers, various community and ecosystem initiatives, and a protocol endowment.
+
+From this initial 200MM we can model future token emissions based on the two inflation mechanims introduced above.
+
