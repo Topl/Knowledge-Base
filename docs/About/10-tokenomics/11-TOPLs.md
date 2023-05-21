@@ -38,11 +38,13 @@ To determine the relevant rate of rate of _growth inflation_ for any period, **f
 
 In the subsquent section detailing [block rewards](./12-incentivizing-network-participation.md#block-rewards) in the Topl protocol, we will see how this allocation to the protocol stewards functions in practice. Additionally the goals and mechanisms for distributing the stewardship treasury is explored in our introduction to Topl's [governance design](./15-governance.md)
 
-**Security Adjustment.** Complementary to TOPL’s growth inflation, the security adjustment is a secondary, **non-dilutive** inflationary (or deflationary) mechanism. In effect, this second mechanism of supply change inputs any positive price change of TOPL in LVLs from one epoch to the next and based on this change, mints and distributes new TOPL proportionally to all active TOPL holders. If in _epoch n-1_, the price of TOPL increases by $\delta$ from the price in _epoch n-2_, then ${\delta}^2$ new additional TOPL will be distributed proporotionally in _epoch n+1_ to all active participants from _epoch n-1_. If the price of TOPL decreases from the prior epoch, the security inflation rate will simply be zero
+**Security Adjustment.** Complementary to TOPL’s growth inflation, the security adjustment is a secondary, **non-dilutive** inflationary (or deflationary) mechanism. In effect, this second mechanism of supply change inputs any positive price change of TOPL in LVLs from one epoch to the next and based on this change, mints and distributes new TOPL proportionally to all active TOPL holders. If in _epoch n-1_, the price of TOPL increases by a percentage $\delta$ from the price in _epoch n-2_, then $\Delta$ new additional TOPL will be distributed proportionally in _epoch n+1_ to all active stakers from _epoch n-1_. On the other hand, if the price of TOPL decreases from the prior epoch, the security adjustment will burn tokens held by stakers who are neglecting to honestly participate in consensus and block production.
+
+$\Delta = {\delta}^2 \cdot {P}^\frac{1}{2}$
 
 :::note
 
-The staggering of changes in the rate of TOPL emission, e.g. an input change in _epoch n-1_ adjusting the output only by _epoch n+1_ mirrors the function of Topl's consensus protocol Taktikos and is used to ensure that the network parameters cannot be maniupulated while still enabling fully liquid staking. 
+The staggering of changes in the rate of TOPL emission, e.g. an input change in _epoch n-1_ adjusting the output only by _epoch n+1_ mirrors the function of Topl's consensus protocol Taktikos and is used to ensure that the network parameters cannot be manipulated while still enabling fully liquid staking. 
 :::
 
 While growth inflation is individually dilutive but collectively beneficial-as it ensure continued robust investment in the ecosystem, the security adjustment when inflationary is both non-dilutive and collectively beneficial. First, since this block reward is distributed proportionally to all TOPL holders active over the previous period, the proportional share of all TOPLs that an honest and active participant will have never decrease due to the security adjustment.
@@ -60,7 +62,7 @@ Expressed in this way, we can see that for a given value of total stake, Topl is
 
 ## Emissions Model
 
-At lauch, the Topl protocol will have 200 million TOPL in its genesis block distributed to the initial team, early backers, various community and ecosystem initiatives, and a protocol endowment.
+At launch, the Topl protocol will have 200 million TOPL in its genesis block distributed to the initial team, early backers, various community and ecosystem initiatives, and a protocol endowment.
 
 From this initial 200MM we can model future token emissions based on the two inflation mechanims introduced above.
 
