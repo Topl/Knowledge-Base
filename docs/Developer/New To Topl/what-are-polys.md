@@ -12,10 +12,9 @@ This fee acts as an incentive to the nodes running the blockchain code to contin
 1 nanopoly (10^-9 polys) is the smallest unit to which a poly can be divided. The denomination must be used when interacting with the Topl blockchain.
 
 So instead of entering a value of 1 poly to pay a transaction fee, you would enter a fee 10^9 nanopolys.
-[block:callout]
-{
-  "type": "info",
-  "title": "Current Fees",
-  "body": "Currently, the transaction fee for the Valhalla testnet is set to 100 nanopoly.\n\nOn the production mainnet, transaction fees will be set to 1 poly or 10^9 nanopolys."
-}
-[/block]
+
+:::tip Current Fees
+
+Currently, the transaction fee for the Valhalla testnet is set to 100 nanopoly.\n\nOn the production mainnet, transaction fees will be set to 1 poly or 10^9 nanopolys.
+
+:::

@@ -6,18 +6,12 @@ hidden: false
 createdAt: "2022-09-20T12:25:10.499Z"
 updatedAt: "2022-09-20T14:16:02.510Z"
 ---
-[block:api-header]
-{
-  "title": "Smart Contracts on the Topl Blockchain"
-}
-[/block]
+## Smart Contracts on the Topl Blockchain
+
 Topl has integrated the [Digital Asset modeling Language (DAML)](https://docs.daml.com/) as its first smart contract platform for creating and using native assets on the blockchain. As a public and permissionless blockchain, we are utilized the open-source implementation of DAML to bring a secure way to create and deploy off-chain smart contracts that still maintain the same level of cryptographic proofs and asset management that you would find in on-chain smart contracts like Solidity and Rust.
 
-[block:api-header]
-{
-  "title": "First Steps"
-}
-[/block]
+## First Steps
+
 ### Setting up DAML
 
 &emsp; **[Install](https://docs.daml.com/getting-started/installation.html)** the DAML SDK and VSCode editor integration.
