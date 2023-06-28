@@ -83,19 +83,13 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'Developer/Getting Started/introduction',
-            position: 'left',
-            label: 'Developer',
-          },
-          {
-            type: 'doc',
-            docId: 'Developers/Contributing/contributing',
+            docId: 'Developers/Bifrost/contributing',
             position: 'left',
             label: 'Developers',
           },
           {
             type: 'doc',
-            docId: 'Validators/Install/install-docker',
+            docId: 'Validators/Installing Your Node/install-docker',
             position: 'left',
             label: 'Validators',
           },
