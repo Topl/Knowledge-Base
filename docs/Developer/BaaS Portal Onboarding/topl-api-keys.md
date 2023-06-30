@@ -16,7 +16,7 @@ It is mandatory that you sign up for a free API key which allows for many advant
 
 :::info
 
-You can sign up for API keys by creating a project detailed in the guide below.
+To sign up for API keys, create a project as detailed in the guide below.
 
 :::
 
