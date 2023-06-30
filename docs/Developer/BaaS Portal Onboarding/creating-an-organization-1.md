@@ -59,7 +59,7 @@ You may see language referring to "Transaction Credits". Note that this is a syn
 
 :::info
 
-Why do transaction fees exist? Forgers on the Topl Network stake arbits to validate transactions. These transactions are bundled in blocks by forgers and get appended to the Blockchain\n- Once a transaction is part of a block on the Topl Blockchain it is considered confirmed, and the more blocks that are forged on top of the block that contains the transaction, the lower the likelihood of the transaction being modified. In return for their service, forgers receive a block reward for each block as well as the sum of all transaction fees users attached to their transactions. The transaction fee is currently configured at 1 poly, but once decentralization commences, the transaction fee will be based on the market value of a transaction.
+Why do transaction fees exist? Forgers on the Topl Network stake arbits to validate transactions. These transactions are bundled into blocks by forgers and appended to the Blockchain\n- Once a transaction becomes part of a block on the Topl Blockchain, it is considered confirmed. Moreover, the more blocks that are forged on top of the block containing the transaction, the less likely the transaction is to be modified. In return for their service, forgers receive a block reward for each block and the total sum of transaction fees attached by users. Currently, the transaction fee is set at 1 poly, but once decentralization begins, the transaction fee will be based on the market value of each transaction.
 
 :::
 
