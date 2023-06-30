@@ -1,8 +1,11 @@
 # Bifrost Development Setup
+
 Bifrost officially supports development on Ubuntu.  Other operating systems may still work, but the Topl team may be unable to support certain questions.
 
 ## Installation
+
 A [convenience script](./scripts/dev_setup.sh) is provided which will run the following steps automatically. We highly recommend reading the contents of the script before running it. The convenience script can be run by typing
+
 ```sh
 source ./docs/scripts/dev_setup.sh
 ```
@@ -11,6 +14,7 @@ from the command line (from the repository root).
 Otherwise, the directions below will suffice.
 
 ### Docker, Java, and SBT
+
 1. Install [Docker](https://docs.docker.com/engine/install/).
     1. Be sure to follow the Linux post-installation [steps](https://docs.docker.com/engine/install/linux-postinstall/), namely run `sudo usermod -aG docker $USER`
 1. Install Java and SBT using [SDKMAN](https://sdkman.io/install).
@@ -21,5 +25,6 @@ Otherwise, the directions below will suffice.
     1. Run `sdk install sbt 1.7.3`
 
 ## Bifrost
+
 1. Clone https://github.com/Topl/Bifrost and checkout branch `dev`.
 1. Run `sbt compile` from the command line.
