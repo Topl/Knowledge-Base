@@ -17,7 +17,7 @@ To begin interfacing with the Topl blockchain, you'll once again go to the menu 
 Once you have clicked on the create new project button, you will be shown a screen where you can enter the project name in addition to being able to select which Topl BaaS Offerings you want to add to the project (Torus or Genus).
 :::info
 
-Torus enables you to send information to the Topl network while Genus allows you to listen for a response, useful as blockchains are asynchronous. Genus is still under development and should be released later on this year.
+Torus enables you to send information to the Topl network while Genus allows you to listen for a response, useful as blockchains are asynchronous. Genus is still under development and should be released later this year.
 
 :::
 
