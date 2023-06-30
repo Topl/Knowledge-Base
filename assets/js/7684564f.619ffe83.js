@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportal=self.webpackChunkportal||[]).push([[887],{5322:a=>{a.exports=JSON.parse('{"label":"dart","permalink":"/tags/dart","allTagsPath":"/tags","count":1,"items":[{"id":"Developers/Brambl SDK/brambl-dart","title":"BramblDart","description":"A Dart library that supports the Topl blockchain.","permalink":"/Developers/Brambl SDK/brambl-dart"}]}')}}]);
