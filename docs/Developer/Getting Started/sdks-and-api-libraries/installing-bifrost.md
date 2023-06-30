@@ -139,7 +139,7 @@ Check `java` version:
 java --version
 ```
 
-You should see something like this
+You should see something like this:
 
 ```sh
 java version "1.11.0_55"
