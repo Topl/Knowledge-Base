@@ -113,7 +113,7 @@ Check `sbt` version:
 sbt sbtVersion
 ```
 
-You should see something like this
+You should see something like this:
 
 ```sh
 $ sbt 'inspect sbtVersion'
