@@ -49,7 +49,7 @@ The next step will be to choose a subscription option out of the following three
 * Polys are the cryptocurrency that is used to pay for transactions on the Topl Blockchain network.
 * Each transaction on the Topl Blockchain takes a certain number of nanopolys (10^-9 polys) in order to make a transaction.
 * Please reach out to Chris Georgen at <c.georgen@topl.me> for special deals on polys.
-* Please look at the tutorial for [Adding Polys](doc:adding-polys)  for more detailed instructions
+* Please look at the tutorial for [Adding Polys](doc:adding-polys) for more detailed instructions
 
 :::info
 
