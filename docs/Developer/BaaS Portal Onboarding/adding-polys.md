@@ -29,7 +29,7 @@ You will need to wait until the funds are confirmed to use them. The confirmatio
 
 :::info
 
-Polys used on our testing network our free, however, you will have to pay to acquire polys on our main network. In addition, you can only request one faucet transaction on the testnet for every 6 hours. This ensures that there will be enough test polys for all of our users.
+Polys used on our testing network are free, however, you will have to pay to acquire polys on our main network. Additionally, you can only request one faucet transaction on the testnet every 6 hours. This ensures that there are enough test polys for all of our users.
 
 :::
 
