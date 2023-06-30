@@ -45,13 +45,6 @@ const config = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/Topl/knowledge-base',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -90,9 +83,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'Developer/Getting Started/introduction',
+            docId: 'Developers/Bifrost/contributing',
             position: 'left',
-            label: 'Developer',
+            label: 'Developers',
+          },
+          {
+            type: 'doc',
+            docId: 'Validators/Installing Your Node/install-docker',
+            position: 'left',
+            label: 'Validators',
           },
           {
             href: 'https://github.com/topl/knowledge-base',
