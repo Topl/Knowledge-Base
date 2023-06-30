@@ -141,6 +141,9 @@ A rewards address is specifically when someone forges a new block, the rewards f
 ## Slot
 Atomic time unit in Ouroboros, smallest piece of time (~1 second for Topl, 2 for Cardano)
 
+## New Term
+This is a test
+
 ## Smart contract
 A smart contract is a self-executing contract with the terms of agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized Blockchain network. The code controls the execution, and transactions are trackable and irreversible. Smart contracts permit trusted transactions and agreements to be carried out among disparate anonymous parties without the need for a central authority, legal system, or external enforcement mechanism.
 
