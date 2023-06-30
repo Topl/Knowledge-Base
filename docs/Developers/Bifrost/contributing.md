@@ -4,7 +4,7 @@ Bifrost officially supports development on Ubuntu.  Other operating systems may 
 
 ## Installation
 
-A [convenience script](./scripts/dev_setup.sh) is provided which will run the following steps automatically. We highly recommend reading the contents of the script before running it. The convenience script can be run by typing
+A [convenience script](https://github.com/Topl/Bifrost/blob/dev/docs/scripts/dev_setup.sh) is provided which will run the following steps automatically. We highly recommend reading the contents of the script before running it. The convenience script can be run by typing
 
 ```sh
 source ./docs/scripts/dev_setup.sh
