@@ -6,7 +6,7 @@ excerpt: "Helpful terms and definitions relevant to the Topl protocol and web3 i
 # Glossary
 Here are a few terms and definitions relevant to both the Topl protocol and web3 in general.
 
-**Items with a ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png) indicate a term that is specific to the Topl protocol.*
+**Items with a ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png) indicate a term that is specific to the Topl protocol.*
 
 ## AES
 Advanced Encryption Standard, it is a symmetric-key algorithm for encrypting and decrypting data, developed by the National Institute of Standards and Technology (NIST) and its use by the NSA led to it becoming one of the most widely used cryptographic algorithms.
@@ -29,7 +29,7 @@ An Asset Code is a unique identifier for user issued Assets generated from the v
 ## AST
 abstract syntax tree; an abstract representation of code
 
-## Bifrost ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Bifrost ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Topl protocol reference client implementation written in Scala.
 Project Bifrost is a Scala client designed over a cryptocurrency/blockchain protocol developed to achieve three specific goals: 
 
@@ -69,7 +69,7 @@ Topl uses Curve25519 to generate public and private key pairs and for signing tr
 ## Daml
 Digital Asset Modeling Language; higher-order (chain agnostic) contract language for writing business logic. centered around assets, individual user definitions, and built-in privacy. Some pre-made front-ends out of the box that can be extended be used to extended functionality of products such as Lattice and RaaS. Cardano has something similar with Marlowe / Plutus.
 
-## Dion ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Dion ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Current version of Topl protocol in production. Implemented in Bifrost
 
 ## E2E
@@ -147,13 +147,13 @@ A smart contract is a self-executing contract with the terms of agreement betwee
 ## Staking Key
 Cryptographic key, needed by stakers, responsible for securely extending the chain
 
-## Taktikos ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Taktikos ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 The regularized Nakamoto-style proof-of-stake consensus algorithm that powers the Topl protocol. The Taktikos staking mechanism reduces variance in the distribution of time intervals between blocks by means of a time-varying leader election process. This quality of regularization significant improvements for transaction throughput and finality guarantees in a proof-of-stake protocol.
 
-## Tetra ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Tetra ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Next major release of Topl protocol. Introduces Taktikos and additional features (exUTxO, event sourcing, CPE refactor)
 
-## Topl blockchain address ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Topl blockchain address ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 The topl blockchain address is a unique sequence of numbers and letters that functions similarly to an email address. In particular, the numbers and letters are Base58 (https://tools.ietf.org/id/draft-msporny-base58-01.html).  The Topl Blockchain address refers to a specific destination on the network where Topl cryptocurrency can be sent to. For example, imagine that you want to make a transaction on the Topl network with your friend Bob. Bob will share his address with you and you will be able to transact with him via this address.
 
 ## Transaction
