@@ -33,4 +33,4 @@ Polys used on our testing network are free, however, you will have to pay to acq
 
 :::
 
-If you are wanting to add polys to an account on our mainnet (toplnet), please follow the steps above but use the mainnet dropdown instead of the valhalla dropdown. You should be redirected to stripe where you can purchase polys on the main network.
+If you want to add polys to an account on our mainnet (toplnet), please follow the steps above but use the mainnet dropdown instead of the valhalla dropdown. You should be redirected to Stripe, where you can purchase polys on the main network.
