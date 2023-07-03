@@ -34,8 +34,6 @@ $1bn+|<2%
 To determine the relevant rate of rate of _growth inflation_ for any period, **fully unlocked current supply** is used. Fully unlocked current supply includes all tokens presently issued regardless of any lock up or transfer restrictions but does not include tokens planned to be minted through future block rewards or governance.
 :::
 
-In the subsquent section detailing [block rewards](./12-incentivizing-network-participation.md#block-rewards) in the Topl protocol, we see how this allocation to the protocol stewards functions in practice. Additionally the goals and mechanisms for distributing the stewardship treasury is explored in our introduction to Topl's [governance design](./15-governance.md)
-
 **Security Adjustment.** Complementary to TOPL’s growth inflation, the security adjustment is a secondary, **non-dilutive** inflationary (or deflationary) mechanism. In effect, this second mechanism of supply change inputs any positive price change of TOPL in LVLs, Topl's in protocol currency, from one epoch to the next and based on this change, mints and distributes TOPLs proportionally to all active holders or burns TOPLs not actively staked. If in _epoch n-1_, the price of TOPL increases by a percentage $\delta$ from the price in _epoch n-2_, then $\Delta$ new additional TOPL will be distributed proportionally in _epoch n+1_ to all active stakers from _epoch n-1_. On the other hand, if the price of TOPL decreases from the prior epoch, the security adjustment will burn $\Delta$ TOPLs held by stakers who are neglecting to honestly participate in consensus and block production.
 
 $$\Delta = {\delta}^2 \cdot {P}^\frac{1}{2} \cdot Supply_{TOPLS}$$
