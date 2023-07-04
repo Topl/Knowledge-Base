@@ -1,7 +1,7 @@
 ---
-title: "Design Philosophy"
-slug: "design-philosophy"
-excerpt: "Design Philosophy"
+title: "Protocol Design"
+slug: "protocol-design"
+excerpt: "Protocol Design"
 ---
 
 # Design Philosophy
