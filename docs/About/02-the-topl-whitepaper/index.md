@@ -1,8 +1,9 @@
 ---
-title: "Topl Whitepaper"
-slug: "topl-whitepaper"
-excerpt: "Access the Topl whitepaper"
+title: "The Topl Whitepaper"
+slug: "whitepaper"
+excerpt: "The Topl Whitepaper"
 ---
+
 # Whitepaper
 
 The Topl Whitepaper is presented in the following sections:

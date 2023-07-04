@@ -1,11 +1,18 @@
 ---
-title: "Primer"
-slug: "topl-primer"
+title: "About Topl"
+slug: "/"
 excerpt: "Topl is a new interoperable blockchain protocol that aims to create a sustainable, inclusive economy."
 ---
+# About Topl
+Topl is a new interoperable blockchain protocol that aims to create a sustainable, inclusive economy. Its mission is to disrupt existing economic systems and empower changemakers worldwide to make lasting, positive impact. Topl's modular, permissionless proof-of-stake blockchain is transparent, secure, scalable, and energy-efficient. Its technical innovations, including interoperability and UTxO efficiency, pave the way for economic system innovation by connecting builders across the Topl network. The protocol's transparency, security, and flexibility make it suitable for track and trace applications, carbon and renewable energy credit exchanges, asset tokenization and infinite other use cases. Topl's goal is to achieve fully decentralized governance and currency through its unique dual-token protocol. 
+
+Continue exploring this Topl Knowledge Base to learn more about the Topl technology and ecosystem.
+
+<br />
 
 # Introduction
 ### *What is Topl?*
+
 <br />
 Topl believes in a better world. A world where economic growth lives in harmony with a flourishing environment. A world of positive-sum economics where systems of self-reinforcing inequity no longer undermine societies.
 
@@ -173,5 +180,3 @@ Designed to support continued growth and adoption of the Topl ecosystem and  to 
 
 
 [Read more](./10-tokenomics/11-TOPLs.md)
-
-
