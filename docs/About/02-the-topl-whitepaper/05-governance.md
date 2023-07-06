@@ -4,7 +4,9 @@ slug: "governance"
 excerpt: "Governance"
 ---
 
-# The Topl Cooperative
+# Governance
+
+## The Topl Cooperative
 
 Central to Topl’s vision of creating a robust impact economy that prioritizes productive contribution is a firm foundation for governance. Without well-designed governance, the long-term vision and purpose of the project cannot be guaranteed.
 

@@ -1,12 +1,12 @@
 ---
-title: "Topl Glossary"
+title: "Glossary"
 slug: "glossary"
 excerpt: "Helpful terms and definitions relevant to the Topl protocol and web3 in general."
 ---
 # Glossary
 Here are a few terms and definitions relevant to both the Topl protocol and web3 in general.
 
-**Items with a ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png) indicate a term that is specific to the Topl protocol.*
+**Items with a ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png) indicate a term that is specific to the Topl protocol.*
 
 ## Address
 In the context of blockchain, an address is a unique digital location represented by a string of alphanumeric characters. It serves as a destination for sending or receiving cryptocurrency within the network. Each address is associated with a wallet, which is equivalent to an account in other blockchains. 
@@ -34,7 +34,7 @@ An Asset Code is a unique identifier for user issued Assets generated from the v
 ## AST
 An AST (Abstract Syntax Tree) is an abstract representation of code that captures its structure and semantics. It provides a hierarchical view of the code's syntax, breaking it down into individual nodes representing expressions, statements, and other language constructs. The AST serves as an intermediary step during compilation or interpretation, enabling analysis, optimization, and transformation of the code. By abstracting away the specific syntax details, the AST facilitates program understanding and manipulation. It is widely used in programming languages, compilers, and static analysis tools to perform tasks like code generation, refactoring, and code quality analysis.
 
-## Bifrost ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Bifrost ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Bifrost is the reference client implementation of the Topl protocol, written in Scala. It is designed to accomplish three primary objectives:
 
 1. Enable the movement and investment of capital from investors in developed economies to businesses in developing economies.
@@ -56,10 +56,10 @@ The Blockchain Trilemma refers to the challenge in designing a blockchain protoc
 ## Bonding Curve
 A bonding curve is a mathematical function used in DeFi to establish a relationship between the price of a digital asset relative to its supply. Bonding curves adjust a token’s price based on market demand, typically in a nonlinear pattern. As more tokens are bought, the price of an asset with a limited quantity increases for each subsequent buyer.
 
-## Brambl ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Brambl ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 The Topl SDK. Brambl enables users to perform certain tasks, such as generating keys and mnemonics, load wallets, minting assets, and broadcasting transactions – amongst others.
 
-## Brambl-CLI ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Brambl-CLI ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Command Line Interface (CLI) for Brambl, the Topl SDK.
 
 ## Burning
@@ -95,7 +95,7 @@ Curve25519 is an elliptic curve cryptography algorithm adopted by Topl for gener
 ## Daml
 DAML (Digital Asset Modeling Language) is a higher-order contract language used to write business logic in a chain-agnostic manner. It focuses on assets, individual user definitions, and built-in privacy features. DAML provides a versatile framework for expressing complex contractual relationships and automating workflows within distributed ledger systems. It comes with pre-made front-end interfaces that can be extended to enhance the functionality of platforms like Lattice and RaaS. Similar to Cardano's Marlowe and Plutus, DAML enables the development of smart contracts and applications with a strong emphasis on security, privacy, and interoperability across different blockchain networks.
 
-## Dion ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Dion ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Previous version of the Topl protocol implemented in Bifrost.
 
 ## E2E
@@ -149,7 +149,7 @@ KES (Key-Evolving Signature) is a mechanism utilized in the Ouroboros proof-of-s
 ## LDD
 LDD (Local Dynamic Difficulty) is a mechanism that adjusts the block production eligibility threshold in real-time based on network conditions. It ensures a stable and efficient block production process by adapting to changes in computing power and network congestion.
 
-## LVLs ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## LVLs ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 LVLs (pronounced "levels") are the transaction fee denomination and payment token in Topl's blockchain protocol. They are distinct from TOPLs, which govern block production and participation in governance. By separating the roles of currency and utility, Topl ensures that users can engage in exchange and payment without compromising the unique properties of staking and governance. LVLs serve as the means to facilitate and settle transaction fees within the Topl ecosystem.
 
 ## Measurement, Reporting, and Verification (MRV)
@@ -227,16 +227,16 @@ Staking refers to the process of participating in a Proof-of-Stake (PoS) blockch
 ## Staking Key
 A "staking key" is a cryptographic key used by stakers to securely extend the blockchain. It enables stakers to participate in block production and validation, ensuring the integrity and security of the network.
 
-## Taktikos ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Taktikos ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 The regularized Nakamoto-style proof-of-stake consensus algorithm that powers the Topl protocol. The Taktikos staking mechanism reduces variance in the distribution of time intervals between blocks by means of a time-varying leader election process. This quality of regularization significant improvements for transaction throughput and finality guarantees in a proof-of-stake protocol.
 
-## Tetra ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Tetra ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 Next major release of Topl protocol. Introduces Taktikos and additional features (exUTxO, event sourcing, CPE refactor)
 
 ## Token Generation Event (TGE)
 The Token Generation Event, or TGE, is synonymous with the genesis block creation and represents the launch of the chain’s mainnet.
 
-## Topl blockchain address ![Topl-specific](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
+## Topl blockchain address ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
 A unique alphanumeric sequence used in the Topl blockchain network, similar to an email address. It is encoded using the Base58 encoding scheme. The Topl address serves as a specific destination on the network where Topl cryptocurrency can be sent. When making transactions on the Topl network, individuals share their Topl addresses to send and receive funds. For instance, if you want to transact with your friend Bob on the Topl network, Bob will provide you with his Topl address, enabling you to send cryptocurrency to him using that address. Topl addresses facilitate secure and convenient transactions within the Topl blockchain ecosystem.
 
 ## Transaction
