@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Topl"
+title: "Introduction"
 slug: "introduction"
 excerpt: "Introduction to Topl"
 ---
