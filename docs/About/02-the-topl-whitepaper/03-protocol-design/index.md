@@ -1,11 +1,10 @@
 ---
-title: "Design Philosophy"
-slug: "design-philosophy"
-excerpt: "Design Philosophy"
+title: "Protocol Design"
+slug: "protocol-design"
+excerpt: "Protocol Design"
 ---
 
-# Design Philosophy
-### How did Topl design its protocol?
+# Protocol Design
 
 ## Defining “sustainable and inclusive”
 There are many terms that can describe the sort of new economic reality that Topl will power with its infrastructure, but we choose root ourselves in two—sustainable and inclusive—as the most appropriate.

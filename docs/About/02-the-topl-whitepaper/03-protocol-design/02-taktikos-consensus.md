@@ -23,18 +23,18 @@ Embracing the ideas of open and collaborative innovation, Topl developed Taktiko
 ## Long tails and slot-based consensus
 In order to solve the problem of network stalls and block irregularity inherent in any Nakamoto consensus protocol, Topl developed Taktikos. One of the key drawbacks of Nakamoto consensus has been high variability in the timing of block production—such consensus protocols can be considered non-regular. While block time for Bitcoin is set at 10 minutes, this is only an average, and there is a long tail where a new block may not arrive for hours. While the plot below shows the block time distribution specifically for the Bitcoin chain, this form of exponential distribution for block times is a feature of all blockchains leveraging Nakamoto-style consensus.
 
-![alt text](../../../static/img/whitepaper/block-vs-time.png)
+![alt text](../../../../static/img/whitepaper/block-vs-time.png)
 
 *Probability Density Function (PDF) of block time intervals in the Bitcoin network, showing that while the average block time may only be 10 minutes (600 seconds), it is not uncommon for stalls in block production to last significantly longer.*
 
 The innovation of Taktikos is the introduction of what we have dubbed local dynamic difficulty. Like other proof-of-stake consensus protocols, Taktikos is round-based, meaning that blocks are created and added in set rounds, with forgers each having a stake-dependent probability of producing a valid block to extend the chain. However, Taktikos is unique in that the probability of block creation is not constant and uses slots to act as a clock to evolve the difficulty of producing a block over time. This perturbation aims to regularize the production of new blocks so that blockchain stalls are minimized.
 
 While many potential difficulty curves were considered and simulated, one curve, in particular, stands out for the chain growth and security properties it produces, the snowplow curve (below).
-![alt text](../../../static/img/whitepaper/forging-window.png)
+![alt text](../../../../static/img/whitepaper/forging-window.png)
 *The time between blocks is shown on the x-axis; the y-axis corresponds to the value of the active slot coefficient, or difficulty, at a given slot interval.*
 
 The snowplow curve allows for blocks to be produced across two distinct periods, the "forging window" and the "recovery phase". The effect of this curve, with a notable discontinuity between the two periods (the cutoff), is to transform the distribution of new block production from the exponential distribution found in other protocols to a tight bell curve(-like) distribution, named the Taktikos distribution, centered on the average block time (below, right). As is explored further in Topl’s technical paper on Taktikos (in submission), usage of the snowplow curve and the resulting Taktikos distribution produces four primary benefits.
-![alt text](../../../static/img/whitepaper/network-delay.png)
+![alt text](../../../../static/img/whitepaper/network-delay.png)
 *(Left) The proportion of slots filled with at least one block as a function of network delay for both Taktikos and its primary alternative, Ouroboros Praos. (Right) Probability of block production as a function of time in seconds for Taktikos and Ouroboros Praos.*
 
 **Block predictability.** First, and perhaps most simply, Taktikos provides greater predictability in block production. By weighting block production into the forging window, Topl’s consensus protocol concentrates the average time it takes for a block to be produced, giving the network greater predictability and preventing network stalls.

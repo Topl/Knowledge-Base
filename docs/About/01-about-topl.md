@@ -1,11 +1,21 @@
 ---
-title: "Primer"
-slug: "topl-primer"
+id: welcome
+title: "About Topl"
+slug: "/"
 excerpt: "Topl is a new interoperable blockchain protocol that aims to create a sustainable, inclusive economy."
 ---
 
+---
+# About Topl
+Topl is a new interoperable blockchain protocol that aims to create a sustainable, inclusive economy. Its mission is to disrupt existing economic systems and empower changemakers worldwide to make lasting, positive impact. Topl's modular, permissionless proof-of-stake blockchain is transparent, secure, scalable, and energy-efficient. Its technical innovations, including interoperability and UTxO efficiency, pave the way for economic system innovation by connecting builders across the Topl network. The protocol's transparency, security, and flexibility make it suitable for track and trace applications, carbon and renewable energy credit exchanges, asset tokenization and infinite other use cases. Topl's goal is to achieve fully decentralized governance and currency through its unique dual-token protocol. 
+
+Continue exploring this Topl Knowledge Base to learn more about the Topl technology and ecosystem.
+
+<br />
+
 # Introduction
 ### *What is Topl?*
+
 <br />
 Topl believes in a better world. A world where economic growth lives in harmony with a flourishing environment. A world of positive-sum economics where systems of self-reinforcing inequity no longer undermine societies.
 
@@ -17,7 +27,7 @@ As a technology, Topl is a layer 0 (L0) blockchain network—designed to be high
 
 As an infrastructure for economic innovation, Topl solves two key challenges: 1) aligning activities that are best for society and the environment with those that are most profitable and 2) working to increase access to economic opportunity. Topl has developed its technology to empower a community of builders and changemakers to disrupt the current exploitative economic systems and replace them with economies that #buildgood in the world.
 
-[Read more](./4-introduction-to-topl.md)
+[Read more](./02-the-topl-whitepaper/01-introduction-to-topl.md)
 
 <br />
 
@@ -51,7 +61,7 @@ Climate change is considered by many to be among the most critical threats ever 
 
 Topl derives inspiration from early work done turning carbon into a tradable, monetizable asset and maintains that this model can be extended to support investment into other forms of social and environmental impact. Today, businesses and investors put money into carbon reduction and avoidance not only because it is necessary to help mitigate climate change but also because there are financial returns to be gained. Therefore, such a model can help power economically sustainable investment into areas like clean water access, biodiversity, and even gender equity.
 
-[Read more](./5-theory-of-change.md)
+[Read more](./02-the-topl-whitepaper/02-theory-of-change.md)
 
 <br />
 
@@ -76,7 +86,7 @@ In our view, a problem should have three characteristics to be well fit for this
 2. The situation involves a diverse and dynamic set of stakeholders representing different geographies, priorities, and arrangements.
 3. Interactions are strained or challenging due to a lack of trust between different participants.
 
-[Read more](./6-protocol-design/index.md)
+[Read more](./02-the-topl-whitepaper/03-protocol-design/index.md)
 
 <br />
 
@@ -96,7 +106,7 @@ A blockchain’s consensus algorithm plays a crucial role in its overall design,
 **Reduced adversarial advantage.** Finally, and perhaps most interestingly, when compared to other PoS algorithms, Taktikos minimizes the power of a network adversary. Put simply, the artificial network delay removes any potential advantage an adversary may have as a single party not usually subject to the network delay of honest actors, and the forging window produces a protocol in which the honest majority is provided a perpetual advantage in forging power as blocks trigger blocks supercharging the block production of honest actors.
 
 
-[Read more](./6-protocol-design/8-taktikos-consensus.md)
+[Read more](./02-the-topl-whitepaper/03-protocol-design/02-taktikos-consensus.md)
 
 <br />
 
@@ -137,7 +147,7 @@ Because every token is linked to both a Group and a Series, Topl assets have the
 ## dApp Tooling
 An SDK gives application developers an easy-to-integrate library that will both enable their application to communicate with the blockchain and carry out all necessary cryptographic functions, including hashing data and signing transactions. Paired with code samples and thorough documentation, Topl’s SDK, Brambl, offers a strong example of how to ensure a blockchain is accessible to developers.
 
-[Read more](./6-protocol-design/9-transacting-with-topl.md)
+[Read more](./02-the-topl-whitepaper/03-protocol-design/03-transacting-with-topl.md)
 
 <br />
 
@@ -172,6 +182,4 @@ Designed to support continued growth and adoption of the Topl ecosystem and  to 
 **Throughput Inflation.** Complementary to TOPL’s growth inflation is a secondary, non-dilutive inflation mechanism. In effect, this second mechanism of inflation looks at the change between two epochs in blockchain’s total transaction throughput and, based on that delta, mints and distributes new TOPLs proportionally to all active TOPL holders. If between periods n+1 has δ% more transactions than in period n, then sqrt(δ)% TOPLs are minted and distributed through block rewards. Since this block reward is distributed proportionally to all $TOPL holders active over the previous period, we consider this inflation non-dilutive as the proportional share of all TOPLs that an honest and active participant will have never decreases due to throughput inflation. The purpose is to further incentivize active staking on the network and discourage passive free-riding on the token’s price appreciation.
 
 
-[Read more](./10-tokenomics/11-TOPLs.md)
-
-
+[Read more](./02-the-topl-whitepaper/04-tokenomics/index.md)
