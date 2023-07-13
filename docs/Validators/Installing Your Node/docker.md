@@ -1,6 +1,6 @@
 ---
 id: install-docker
-title: Run with Docker
+title: With Docker
 tags:
   - Install
   - Getting started

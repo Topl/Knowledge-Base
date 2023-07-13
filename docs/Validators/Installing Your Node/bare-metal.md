@@ -1,6 +1,6 @@
 ---
 id: install-bare-metal
-title: Run on Bare Metal
+title: On Bare Metal
 tags:
   - Install
   - Getting started
@@ -9,12 +9,41 @@ tags:
   - jar
 ---
 
-## Ubuntu
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### Install SDKMAN and Java
+:::info Definitions to know
+
+<Tabs>
+  <TabItem value="Bifrost" label="Bifrost">Bifrost is the reference client implementation of the Topl protocol node, written in Scala.</TabItem>
+  <TabItem value="Genus" label="Genus">A service that provides a data layer between the Topl Blockchain and wallets, block explorers, or other dApps that require easy and well structured access to chain data.</TabItem>
+</Tabs>
+
+:::
+
+## Linux
+
+While Topl's Bifrost node can be run across any distribution or flavor of Linux the below instructions have been tested for any distros using apt as a package manager such as **Ubuntu** or any **Debian-based** distro.
+
+### Installing Dependencies
+
+Before getting started there are a few dependencies needed--`curl`, `zip`, and `unzip`.
+
+If you don't have these dependencies already you can install them through:
 
 ```sh
 sudo apt install curl zip unzip
+```
+
+### Installing Java
+
+Detailed instructions for installing Java onto your device can be found directly from the main Java [site](https://www.java.com/en/download/help/linux_install.html).
+
+However, we recommend installing the package [SDKMan](https://sdkman.io/) to simplyify both the installation of your Java environment as well as any updates for the future.
+
+You can install SDKMan and Java by using the below.
+
+```sh
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java
@@ -22,21 +51,21 @@ sdk install java
 
 ### Download and Run Jar
 
-Locate the latest version from https://github.com/Topl/Project-Bifrost/releases/latest 
+Once you've installed Java, find the latest version of the Bifrost node via our Github, https://github.com/Topl/Project-Bifrost/releases/latest 
 
-ex:
+You can then download the latest version with `wget`, simply switching out the URL to that of your desired release.
 
 ```sh
-wget https://github.com/Topl/Bifrost/releases/download/v2.0.0-alpha2/bifrost-node-2.0.0-alpha2.jar 
+wget https://github.com/Topl/Bifrost/releases/download/vX.X.X-alpha6/bifrost-node-2.0.0-alpha6.jar 
 ```
 
-Run
+With the Jar downloaded, the node can be launched with a single line.
 
 ```sh
 java -jar bifrost-node-2.0.0-alpha2.jar
 ```
 
-To see other options, use --help.
+At this point you should see your node live in the terminal. To see additional options, use --help.
 
 ```sh
 --config <str>              Zero or more config files (.conf, .json, .yaml) to apply to the node.
@@ -60,3 +89,10 @@ To see other options, use --help.
 --testnetStakerIndex <int>  The index of the staker to launch.
 --testnetTimestamp <long>   A UTC Unix epoch timestamp (ms) to use when seeding a private testnet.
 ```
+## Windows
+
+While Topl's node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
+
+Detailed instructions for installing and configuring WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install).
+
+Once you have completed setting up your WSL environment, you can simply follow the instructions for Linux above inside your Linux subsystem.

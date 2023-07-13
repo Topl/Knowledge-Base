@@ -1,6 +1,6 @@
 ---
 id: install-k8s
-title: Run with Helm/Kubernetes
+title: With Helm/Kubernetes
 tags:
   - Install
   - Getting started
