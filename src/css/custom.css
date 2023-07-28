@@ -107,19 +107,63 @@ main {
   transition-property: all;
   transition-duration: 200ms;
   height: 14.75rem;
+  border-radius: 12px;
   box-shadow: 0 8px 15px 2px rgba(86, 91, 115, 0.1);
-  
+}
+
+.card_coming_soon {
+  width: 18.875rem;
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+  animation: fadeInUp 400ms backwards;
+  animation-delay: 150ms;
+  transition-property: all;
+  transition-duration: 200ms;
+  height: 14.75rem;
+  box-shadow: 0 8px 15px 2px rgba(86, 91, 115, 0.1);
+  background-color: #fff;
+   border-radius: 12px;
+}
+.card_coming_soon::before { /* Add a pseudo-element to display 'Coming Soon' text */
+  content: 'Coming Soon';
+  display: none; /* Initially, hide the text */
+  position: absolute; /* Position the text relative to the card */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  width: 18.875rem;
+  height: 14.75rem;
+  margin-left: -16px;
+  margin-top: -16px;
+  border-radius: 12px;
+  padding-top: 6rem;
+  box-sizing: border-box;
+   background-color: #fff;
+}
+
+.card_coming_soon:hover::before {
+  display: block; /* Display the text on hover */
+  background-color: #220862;
+  opacity: 0.7;
+
+}
+[data-theme='dark'] .card_coming_soon:hover::before {
+  opacity: 0.8;
 }
 
 [data-theme='dark'] .card {
  background-color: #282A2C;
 }
+
+[data-theme='dark'] .card_coming_soon {
+ background-color: #282A2C;
+}
+/* [data-theme='light'] .card_coming_soon {
+ background-color: #fff;
+} */
 .card a {
   text-decoration: none;
-}
-
-.card:hover {
-  transform: translate(0px, -5px);
 }
 
 .card__header h3 {
