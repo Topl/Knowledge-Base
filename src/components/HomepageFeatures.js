@@ -68,10 +68,10 @@ function Feature({ Svg, title, description, link }) {
   return (
     <>
       <Link to={link}>
-        <div className="card">
+        <div className={link ? "card" : "card_coming_soon"}>
           <div className="card__header">
-            <div style={{ bacgroundColor: "red" }}>
-              <Svg alt={title} viewBox="10 0 65 75" fill="red" />
+            <div>
+              <Svg alt={title} viewBox="10 0 65 75" />
             </div>
             <p style={{ fontSize: 18, fontWeight: 700 }}>{title}</p>
           </div>
