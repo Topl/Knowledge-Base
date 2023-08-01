@@ -38,7 +38,7 @@ const FeatureList = [
     title: "View block explorer",
     Svg: require("../../static/img/cube-viewport.svg").default,
     description: <>Monitor all on-chain activity.</>,
-    link: "",
+    link: "https://explore.topl.co",
   },
   {
     title: "Faucet",
