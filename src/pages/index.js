@@ -11,6 +11,7 @@ function Home() {
           margin: 0,
           background:
             "linear-gradient(90deg, rgba(34,8,98,1) 0%, rgba(131,93,234,1) 99%, rgba(132,94,234,1) 100%)",
+          minHeight: "100vh",
         }}
       >
         <br />

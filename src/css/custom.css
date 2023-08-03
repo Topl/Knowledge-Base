@@ -101,6 +101,7 @@ main {
 .card {
   width: 18.875rem;
   padding: 1rem;
+  padding-top: 0.5rem;
   margin-bottom: 2.5rem;
   animation: fadeInUp 400ms backwards;
   animation-delay: 150ms;
@@ -114,6 +115,7 @@ main {
 .card_coming_soon {
   width: 18.875rem;
   padding: 1rem;
+  padding-top: 0.5rem;
   margin-bottom: 2.5rem;
   animation: fadeInUp 400ms backwards;
   animation-delay: 150ms;
@@ -135,9 +137,9 @@ main {
   width: 18.875rem;
   height: 14.75rem;
   margin-left: -16px;
-  margin-top: -16px;
+  margin-top: -8px;
   border-radius: 12px;
-  padding-top: 6rem;
+  padding-top: 5rem;
   box-sizing: border-box;
    background-color: #fff;
 }
@@ -334,6 +336,20 @@ li hr {
     height: 13.75rem;
   }
 }
+/* For iPad Pro */
+@media screen and (min-device-width: 1024px)
+    and (max-device-height: 1366px) {
+      .container-wrapper {
+    padding: 24px;
+    width: 80%;
+  }
+  .card  .card_coming_soon  .card_coming_soon::before {
+    width: 17.875rem;
+    height: 16.75rem;
+  }
+
+  
+    }
 
 /* For Mobile View */
 @media screen
@@ -377,7 +393,7 @@ li hr {
 }
 
 .text-wrapper {
-  margin: 16px 0px 16px 0px;
+  margin: 8px 0px 8px 0px;
 }
 .navbar {
   box-shadow: none;
