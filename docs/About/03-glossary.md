@@ -83,9 +83,6 @@ Blockchains are inherently decentralized systems which consist of different acto
 ## Consensus mechanism
 A consensus mechanism is a fault-tolerant mechanism that is used in blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multi-agent systems, such as with cryptocurrency. It is useful in record-keeping, among other things
 
-## Chain Program Engine (CPE)
-Chain Program Engine (CPE) is a shared state VM for executing business logic on a blockchain. It enables secure and isolated code execution, facilitating smart contract deployment and complex computations within the blockchain network.
-
 ## Cryptocurrency
 A cryptocurrency is a digital or virtual currency that is secured by cryptography which makes it virtually impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on Blockchain technology. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them immune to government interference or manipulation.
 
@@ -149,9 +146,6 @@ KES (Key-Evolving Signature) is a mechanism utilized in the Ouroboros proof-of-s
 ## LDD
 LDD (Local Dynamic Difficulty) is a mechanism that adjusts the block production eligibility threshold in real-time based on network conditions. It ensures a stable and efficient block production process by adapting to changes in computing power and network congestion.
 
-## LVLs ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-LVLs (pronounced "levels") are the transaction fee denomination and payment token in Topl's blockchain protocol. They are distinct from TOPLs, which govern block production and participation in governance. By separating the roles of currency and utility, Topl ensures that users can engage in exchange and payment without compromising the unique properties of staking and governance. LVLs serve as the means to facilitate and settle transaction fees within the Topl ecosystem.
-
 ## Measurement, Reporting, and Verification (MRV)
 Measurement, Reporting, and Verification (MRV) is a process used in various fields, including environmental sustainability and finance. It involves measuring and quantifying data, reporting the results, and verifying the accuracy of the information. MRV ensures transparency, accountability, and trust by providing a standardized framework for monitoring and assessing performance, compliance, and impact. This systematic approach enables organizations and stakeholders to track progress, make informed decisions, and demonstrate their commitment to responsible practices.
 
@@ -159,7 +153,7 @@ Measurement, Reporting, and Verification (MRV) is a process used in various fiel
 In cryptography and computer science, a hash tree or Merkle tree is a tree in which every "leaf" (node) is labeled with the cryptographic hash of a data block, and every node that is not a leaf (called a branch, inner node, or inode) is labeled with the cryptographic hash of the labels of its child nodes. A hash tree allows efficient and secure verification of the contents of a large data structure. A hash tree is a generalization of a hash list and a hash chain.
 
 ## Nakamoto Consensus
-An incentive driven, probabilistic consensus algorithm where chain extension eligibility is determined via a race condition, originally presented in the Bitcoin whitepaper.
+An incentive-driven, probabilistic consensus algorithm where chain extension eligibility is determined via a race condition, originally presented in the Bitcoin whitepaper.
 
 ## Nodes
 Nodes are the machines that store and maintain the state of the Topl Blockchain. They play a crucial role in the decentralized network by communicating with each other to share information about the blockchain state and any new updates. The collective network formed by these nodes is what constitutes the Topl network. Nodes collaborate to validate transactions, propagate data across the network, and ensure the integrity and consensus of the blockchain. By participating in the network, nodes contribute to the security and decentralization of the Topl Blockchain, creating a robust and resilient system for storing and processing data.
