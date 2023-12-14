@@ -1,4 +1,4 @@
-**Topl's Community Bounty Program**
+# **Topl's Community Bounty Program**
 
 We're excited to be launching our community bounty program in December of 2023! We will post all Topl bounty opportunities to our [Dework space](https://app.dework.xyz/topl-97029/main-space-88431). 
 
@@ -10,9 +10,9 @@ We'd like to share with you the primary objectives of the Topl Bounty Program, a
 
 
 **Steps to get involved in Topl's Community Bounty Program**
-  1.  Check us out on [Dework](https://app.dework.xyz/topl-97029/main-space-88431) to see if any of the currently listed tasks are a good fit for your expertise and skill sets.
+  1. Check us out on [Dework](https://app.dework.xyz/topl-97029/main-space-88431) to see if any of the currently listed tasks are a good fit for your expertise and skill sets. If you don't see a task that looks like a good fit, hang tight! Different core teams (engineering, product, growth, tokenomics, etc) will be posting bounties as often as we can. If you have some ideas of how you can contribute, email us at community@topl.me, to see if we can co-create a bounty for your proposed task. 
   2. Create your Dework profile. We encourage you to put as much thought into this as possible to ensure that your profile adequately represents your skills and areas of interest.  
-  3. Read through our Rules of Engagement. 
+  3. Read through our [Rules of Engagement](. 
   4. Read through our [Bounty Program Participant Agreement](https://legal.topl.co/Bounty_Program_Agreement) (all participants are subject to this agreement). 
   5. Reach out to us in [Discord](https://discord.gg/qS6QMGZ4fa) or at community@topl.me with any questions. 
   
