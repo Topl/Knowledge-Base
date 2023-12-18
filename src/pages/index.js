@@ -29,7 +29,7 @@ function Home() {
             Topl blockchain.
             <br />
             Once you’re up & running, come
-            <Link to="https://discord.gg/topl">say hello on Discord.</Link>
+            <Link to="https://discord.gg/nvaFy4HpUA">say hello on Discord.</Link>
           </p>
         </div>
         <section>
