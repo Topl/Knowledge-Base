@@ -1,0 +1,7 @@
+To initialize a wallet, you need to run the following command:
+
+<pre><code>
+brambl-cli wallet init -w $PASSWORD --passphrase $PASSPHRASE -n $NETWORK -o {props.keyfile} --newwalletdb {props.wallet} --mnemonicfile {props.mnemonic}
+</code></pre>
+
+This will create a new wallet with a new master key protected by a password and a passphrase. The wallet will be stored in the file specified by the `--newwalletdb` option. The mnemonic will be stored in the file specified by the `--mnemonicfile` option. The master key will be stored in the file specified by the `-o` option. The valid values for the `-n` option are `mainnet`, `testnet`, and `private`.

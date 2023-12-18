@@ -83,15 +83,27 @@ const config = {
           },
           {
             type: "doc",
-            docId: "Developers/Bifrost/contributing",
+            docId: "Developers/getting-started",
             position: "left",
             label: "Developers",
           },
           {
             type: "doc",
-            docId: "Validators/Installing Your Node/install-docker",
+            docId: "Validators/Node Setup/install-bare-metal",
             position: "left",
             label: "Validators",
+          },
+          {
+            type: "doc",
+            docId: "Bounty_Program/bounty-overview",
+            position: "left",
+            label: "Bounty Program",
+          },
+          {
+            type: "doc",
+            docId: "Glossary/glossary",
+            position: "left",
+            label: "Glossary",
           },
           {
             href: "https://github.com/topl/knowledge-base",

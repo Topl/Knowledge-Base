@@ -1,0 +1,7 @@
+To create a simple transaction you need to run the following command:
+
+<pre><code>
+brambl-cli simple-transaction create --from-fellowship {props.fellowship} --from-template {props.template} --from-interaction {props.interaction} -t $TO_ADDRESS -w $PASSWORD --port $PORT -o {props.txFile} -n $NETWORK -a $SEND_AMOUNT -h $HOST -i {props.keyfile} --walletdb {props.wallet} --fee $FEE --transfer-token {props.token}
+</code></pre>
+
+<p>This will create a transaction that spends the interaction <code>{props.interaction}</code> of the template <code>{props.template}</code> of the fellowship <code>{props.fellowship}</code> and sends <code>$SEND_AMOUNT</code> levels to the address <code>$TO_ADDRESS</code>. The transaction will be stored in the file <code>{props.txFile}</code>.</p>

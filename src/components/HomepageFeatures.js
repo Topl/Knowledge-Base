@@ -6,7 +6,7 @@ const FeatureList = [
     title: "Quick Start",
     Svg: require("../../static/img/rocket-flying.svg").default,
     description: <>Quick start Get up and running with the Topl blockchain.</>,
-    link: "About/about-topl",
+    link: "Developers/Quickstart Tutorial/quickstart-setup",
   },
   {
     title: "Create a wallet",
@@ -14,19 +14,19 @@ const FeatureList = [
     description: (
       <>Create a wallet Spin up a Topl wallet with just a few lines of code.</>
     ),
-    link: "",
+    link: "Developers/Quickstart Tutorial/quickstart-setup",
   },
   {
     title: "Build a dApp",
     Svg: require("../../static/img/cube-on-phone.svg").default,
-    description: <>Start building using our SDK or Daml for smart contracts.</>,
-    link: "",
+    description: <>Start building using our SDKs or Daml for smart contracts.</>,
+    link: "Developers/Software Development Kits/brambldart",
   },
   {
     title: "Run a node",
     Svg: require("../../static/img/network.svg").default,
-    description: <>Earn validator rewards from almost any device.</>,
-    link: "",
+    description: <>Run a node locally or in the cloud.</>,
+    link: "Validators/Node Setup/install-bare-metal",
   },
   {
     title: "Run a testnet validator",
@@ -52,7 +52,7 @@ const FeatureList = [
     description: (
       <> Learn about some fundamental concepts related to the Topl chain.</>
     ),
-    link: "",
+    link: "Glossary/glossary",
   },
   {
     title: "Be a contributor",
@@ -60,7 +60,7 @@ const FeatureList = [
     description: (
       <> Join the Topl community and earn bounties for contributing code.</>
     ),
-    link: "https://github.com/topl/",
+    link: "Bounty_Program/bounty-overview",
   },
 ];
 

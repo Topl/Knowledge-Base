@@ -1,0 +1,7 @@
+You can check the balance of an address using the following command:
+
+<pre><code>
+brambl-cli wallet balance --from-fellowship {props.fellowship} --from-template {props.template} --walletdb {props.wallet} --host $HOST --port $PORT
+</code></pre>
+
+<p>This will show you the balance of the address <code>{props.fellowship}</code> and <code>{props.template}</code> in the wallet <code>{props.wallet}</code> in the node <code>$HOST:$PORT</code>. The <code>--from-interaction</code> can optionally be used to choose the interaction.</p>
