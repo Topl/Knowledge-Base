@@ -205,15 +205,15 @@ a.navbar__item.navbar__link.header-discord-link, a.navbar__item.navbar__link.hea
 }
 
  a.navbar__link.navbar__link--active {
-  color: #ffffff;
-  font-weight: 400px;
+  color: #0DCAD4;
+  font-weight: 600;
   font-size: 16px;
   font-style: normal;
 }
 
 a.navbar__link {
-  color: #0DCAD4;
-  font-weight: 400px;
+  color: #ffffff;
+  font-weight: 600;
   font-size: 16px;
   font-style: normal;
 }

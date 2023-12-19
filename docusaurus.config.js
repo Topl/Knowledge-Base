@@ -83,15 +83,9 @@ const config = {
           },
           {
             type: "doc",
-            docId: "Developers/getting-started",
+            docId: "Developers/welcome",
             position: "left",
             label: "Developers",
-          },
-          {
-            type: "doc",
-            docId: "Validators/Node Setup/install-bare-metal",
-            position: "left",
-            label: "Validators",
           },
           {
             type: "doc",

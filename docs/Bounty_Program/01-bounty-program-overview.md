@@ -23,7 +23,7 @@ We'd like to share with you the primary objectives of the Topl Bounty Program, a
 
 🎨 Create your Dework profile. We encourage you to put as much thought into this as possible to ensure that your profile adequately represents your skills and areas of interest.  
 
-📜 Read through our [Rules of Engagement](https://github.com/Topl/Knowledge-Base/blob/af2cda04b4feb0dcebbc95f341d828b2300b7810/docs/Developers/08-Bounty%20Program/Bounty%20Program%20Rules%20of%20Engagement.md). 
+📜 Read through our [Rules of Engagement](02-rules-of-engagement.md).
 
 ⚖️ Read through our [Bounty Program Participant Agreement](https://legal.topl.co/Bounty_Program_Agreement) (all participants are subject to this agreement). 
 
