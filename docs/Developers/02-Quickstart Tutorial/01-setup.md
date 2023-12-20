@@ -23,7 +23,7 @@ using the [Check Balance](../CLI/How-tos/check-balance) how to.
 
 ### Launch a Private Node
 
-For this quickstart guide we recommend having [Docker installed](../03-Node%20Setup/docker.md) on your machine. Once
+For this quickstart guide we recommend having [Docker installed](../Node Setup/docker.md) on your machine. Once
 Docker is installed, you can launch a node using the following command:
 
 ```
