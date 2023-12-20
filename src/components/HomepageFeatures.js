@@ -6,7 +6,7 @@ const FeatureList = [
     title: "Quick Start",
     Svg: require("../../static/img/rocket-flying.svg").default,
     description: <>Quick start Get up and running with the Topl blockchain.</>,
-    link: "Developers/Quickstart Tutorial/quickstart-setup",
+    link: "Developers/Quickstart Tutorial/setup",
   },
   {
     title: "Create a wallet",
@@ -14,7 +14,7 @@ const FeatureList = [
     description: (
       <>Create a wallet Spin up a Topl wallet with just a few lines of code.</>
     ),
-    link: "Developers/Quickstart Tutorial/quickstart-setup",
+    link: "Developers/Quickstart Tutorial/setup",
   },
   {
     title: "Build a dApp",
@@ -26,7 +26,7 @@ const FeatureList = [
     title: "Run a node",
     Svg: require("../../static/img/network.svg").default,
     description: <>Run a node locally or in the cloud.</>,
-    link: "Validators/Node Setup/install-bare-metal",
+    link: "Developers/Node Setup/install-bare-metal",
   },
   {
     title: "Run a testnet validator",

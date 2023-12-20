@@ -1,7 +1,7 @@
 ---
-id: quickstart-setup
-title: "Quickstart Setup"
-slug: quickstart-setup
+id: setup
+title: "Setup"
+slug: setup
 ---
 # Setup
 
@@ -23,7 +23,7 @@ using the [Check Balance](../CLI/How-tos/check-balance) how to.
 
 ### Launch a Private Node
 
-To launch a private node you need to have Docker installed in your machine. Once
+For this quickstart guide we recommend having Docker installed on your machine. Once
 Docker is installed, you can launch a node using the following command:
 
 ```
@@ -35,7 +35,7 @@ The latest available version right now is `2.0.0-alpha10`.
 ### Use a Public Testnet Node
 
 To use the public test net you need to call the different methods using the 
-`--host` and `--port` parameters. The host is `testnet.topl.tech` and the port
+`--host` and `--port` parameters. The host is `testnet.topl.co` and the port
 is `443`. You also need to use the `--secure` or `-s` parameter to use TLS over the
 connection.
 

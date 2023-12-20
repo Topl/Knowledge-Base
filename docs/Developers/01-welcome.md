@@ -1,7 +1,7 @@
 ---
-id: getting-started
-title: "Getting Started"
-slug: "getting-stared"
+id: welcome
+title: "Welcome"
+slug: welcome
 ---
 # Welcome to Topl's Developer Portal 
 

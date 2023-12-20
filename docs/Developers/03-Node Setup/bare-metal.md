@@ -61,7 +61,6 @@ wget https://github.com/Topl/Bifrost/releases/download/vX.X.X-alpha6/bifrost-nod
 ```
 With the Jar downloaded, the node can be launched with a single line.
 
-
 ```sh
 java -jar bifrost-node-2.0.0-alpha2.jar
 ```
@@ -90,6 +89,13 @@ At this point you should see your node live in the terminal. To see additional o
 --testnetStakerIndex <int>  The index of the staker to launch.
 --testnetTimestamp <long>   A UTC Unix epoch timestamp (ms) to use when seeding a private testnet.
 ```
+
+## Compiling from Source
+
+Alterntiavely, if you need greater control over your node environment or are interested in contributing to the development of Bifrist, you can compile the node directly from source.
+
+The Bifrost repository can be cloned from https://github.com/Topl/Bifrost and compiled by running ``sbt complile`` after all dependencies have been installed.
+
 ## Windows
 
 While Topl's node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
