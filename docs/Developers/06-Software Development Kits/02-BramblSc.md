@@ -10,9 +10,9 @@ tags:
 
 # BramblSc
 
-Topl's Brambl SDK implemented in Scala
+Apparatus's Brambl SDK implemented in Scala
 
-Multiple artifacts will be built from this repo. Some will be just for Topl clients and some will be shared. 
+Multiple artifacts will be built from this repo. Some will be just for Apparatus clients and some will be shared. 
 
 The artifacts generated from this repo are:
 
@@ -39,7 +39,7 @@ First, be sure to add jitpack to the end of the resolvers list in build.sbt. It 
 Then just add the dependency like this:
 ```sbt
   val bramblSc =
-    "com.github.Topl" % "BramblSc" % "1bdc895"
+    "com.github.Apparatus" % "BramblSc" % "1bdc895"
 ```
 Where `1bdc895` refers to a commit on this repo's main branch. This will add the artifacts for both `brambl-sdk` and `crypto`.
 Then just use the dependencies like you would any other.
@@ -73,7 +73,7 @@ Replace `2.0.0-alpha1` with the latest released version. Then just use the depen
 
 ## Develop
 
-BramblSC is open source and can be found at: https://github.com/Topl/BramblSc.
+BramblSC is open source and can be found at: https://github.com/Apparatus/BramblSc.
 
 To start using BramblSc, add a dependency to your Scala project.
 
@@ -87,4 +87,4 @@ libraryDependencies += "co.topl" % "brambl_2.12" % "1.10.2"
 
 ## Contributing
 
-[Open a PR here!](https://github.com/Topl/BramblSc)
+[Open a PR here!](https://github.com/Apparatus/BramblSc)

@@ -26,7 +26,7 @@ $ ./cs version
 ## Using the CLI
 
 - There is no need to clone a repository to use the CLI, you can launch a release version of the CLI using coursier directly.
-- You can check releases on [sonatype](https://s01.oss.sonatype.org/content/repositories/releases/co/topl/brambl-cli_2.13/) or at the [releases page](https://github.com/Topl/brambl-cli/releases) on Github.
+- You can check releases on [sonatype](https://s01.oss.sonatype.org/content/repositories/releases/co/topl/brambl-cli_2.13/) or at the [releases page](https://github.com/Apparatus/brambl-cli/releases) on Github.
 - Then just launch your coursier application
 
 ```shell

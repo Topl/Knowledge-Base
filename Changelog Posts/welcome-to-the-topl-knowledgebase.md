@@ -1,6 +1,6 @@
 ---
-title: "Welcome to the Topl Knowledgebase"
-slug: "welcome-to-the-topl-knowledgebase"
+title: "Welcome to the Apparatus Knowledgebase"
+slug: "welcome-to-the-apparatus-knowledgebase"
 hidden: false
 ---
-Welcome to the Topl knowledgebase!
+Welcome to the Apparatus knowledgebase!

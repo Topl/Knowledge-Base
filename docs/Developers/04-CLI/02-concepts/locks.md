@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Locks
 
-All funds in the Topl blockchain are protected by a lock proposition. The lock
+All funds in the Apparatus blockchain are protected by a lock proposition. The lock
 proposition is not available to the users, only the lock address is.
 
 To prove that they may use the funds in an address, users must provide both

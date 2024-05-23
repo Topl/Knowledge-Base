@@ -5,7 +5,7 @@ import HomepageFeatures from "../components/HomepageFeatures";
 
 function Home() {
   return (
-    <Layout title="Home" description="Topl Dev Docs" noFooter={true}>
+    <Layout title="Home" description="Apparatus Dev Docs" noFooter={true}>
       <main
         style={{
           margin: 0,
@@ -19,14 +19,14 @@ function Home() {
           <h1 align="center" style={{ fontWeight: "350" }}>
             <p>
               <span style={{ color: "#0DC8D4" }}>#BuildGood </span>
-              <span style={{ color: "#ffffff" }}>With Topl</span>
+              <span style={{ color: "#ffffff" }}>With Apparatus</span>
             </p>
           </h1>
         </div>
         <div className="discord-link">
           <p className="text-header">
             Check out the resources below to learn more about developing on the
-            Topl blockchain.
+            Apparatus blockchain.
             <br />
             Once you’re up & running, come
             <Link to="https://discord.gg/nvaFy4HpUA">say hello on Discord.</Link>

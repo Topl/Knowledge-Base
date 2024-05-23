@@ -4,7 +4,7 @@ title: "Public Testnet"
 slug: public-testnet
 ---
 
-Topl maintains a public testnet to enable developers and community memebers to become familiar with the Thunder protocol in a cost free environment. After setting up your node, simply connect through the gRPC or P2P endpoints listed below.
+Apparatus maintains a public testnet to enable developers and community memebers to become familiar with the Thunder protocol in a cost free environment. After setting up your node, simply connect through the gRPC or P2P endpoints listed below.
 
 :::warning
 

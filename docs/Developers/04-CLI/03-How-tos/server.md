@@ -4,7 +4,7 @@ sidebar_position: 20
 
 # Start the Graphical Interface
 
-The CLI provides a method to start the graphical interface. This interface is a web application that allows you to interact with the Topl platform and perform some common tasks in an easier
+The CLI provides a method to start the graphical interface. This interface is a web application that allows you to interact with the Apparatus platform and perform some common tasks in an easier
 way.
 
 ## Start the Graphical Interface

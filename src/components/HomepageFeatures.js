@@ -5,14 +5,14 @@ const FeatureList = [
   {
     title: "Quick Start",
     Svg: require("../../static/img/rocket-flying.svg").default,
-    description: <>Quick start Get up and running with the Topl blockchain.</>,
+    description: <>Quick start Get up and running with the Apparatus blockchain.</>,
     link: "Developers/Quickstart Tutorial/setup",
   },
   {
     title: "Create a wallet",
     Svg: require("../../static/img/crypto-wallet.svg").default,
     description: (
-      <>Create a wallet Spin up a Topl wallet with just a few lines of code.</>
+      <>Create a wallet Spin up a Apparatus wallet with just a few lines of code.</>
     ),
     link: "Developers/Quickstart Tutorial/setup",
   },
@@ -50,7 +50,7 @@ const FeatureList = [
     title: "Background concepts",
     Svg: require("../../static/img/blockchain.svg").default,
     description: (
-      <> Learn about some fundamental concepts related to the Topl chain.</>
+      <> Learn about some fundamental concepts related to the Apparatus chain.</>
     ),
     link: "Glossary/glossary",
   },
@@ -58,7 +58,7 @@ const FeatureList = [
     title: "Be a contributor",
     Svg: require("../../static/img/human-network.svg").default,
     description: (
-      <> Join the Topl community and earn bounties for contributing code.</>
+      <> Join the Apparatus community and earn bounties for contributing code.</>
     ),
     link: "Bounty_Program/bounty-overview",
   },

@@ -9,13 +9,13 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Topl",
+  title: "Apparatus",
   tagline: "",
-  url: "http://docs.topl.co",
+  url: "http://docs.apparatus.live",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/cropped-topl_favicon_new-32x32.png",
+  favicon: "img/cropped-Circle_Original-1.png",
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -68,9 +68,9 @@ const config = {
       navbar: {
         title: "",
         logo: {
-          alt: "Topl",
-          src: "img/topl_logo_white.svg",
-          srcDark: "img/topl_logo_white.svg",
+          alt: "Apparatus",
+          src: "img/apparatus-logo.svg",
+          srcDark: "img/apparatus-logo.svg",
           href: "/",
           target: "_self",
         },
@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Topl`,
+        copyright: `Copyright © ${new Date().getFullYear()} Apparatus`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -150,7 +150,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: "6ceefa2af5b17ceb3aa6623152f5532b",
 
-        indexName: "topl",
+        indexName: "apparatus",
 
         // Optional
         contextualSearch: true,
