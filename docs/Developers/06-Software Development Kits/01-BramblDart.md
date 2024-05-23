@@ -79,7 +79,7 @@ Keystore keystore = KeyStore.createNew(credentials, 'password', random);
 print(keystore.toJson());
 ```
 
-You can also write `keystore.toJson()` to file which you can later open with [BramblSC](https://github.com/Apparatus/Bifrost/wiki/BramblSc-examples) and potentially other Apparatus API libraries in the future.
+You can also write `keystore.toJson()` to file which you can later open with [BramblSC](https://github.com/Topl/Bifrost/wiki/BramblSc-examples) and potentially other Apparatus API libraries in the future.
 
 #### Custom credentials
 If you want to integrate `brambldart` with other wallet providers, you can implement
@@ -174,7 +174,7 @@ the signed transaction but don't intend to send it, you can use
 Please file feature requests and bugs at the [issue tracker][tracker].
 If you want to contribute to this library, please submit a Pull Request.
 
-[tracker]: https://github.com/Apparatus/BramblDart/issues
+[tracker]: https://github.com/Topl/BramblDart/issues
 
 ## Develop
 
@@ -182,8 +182,8 @@ View the documentation at [pub.dev](https://pub.dev/documentation/topl_common/la
 
 ## Contribute
 
-[Open a PR here!](https://github.com/Apparatus/dart_topl_common)
+[Open a PR here!](https://github.com/Topl/dart_topl_common)
 
 ## Additional Examples
 
-[View an example here!](https://github.com/Apparatus/bifrost-client-sample-dart)
+[View an example here!](https://github.com/Topl/bifrost-client-sample-dart)

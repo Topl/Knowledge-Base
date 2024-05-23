@@ -10,7 +10,7 @@ tags:
 
 # BramblSc
 
-Apparatus's Brambl SDK implemented in Scala
+Apparatus' Brambl SDK implemented in Scala
 
 Multiple artifacts will be built from this repo. Some will be just for Apparatus clients and some will be shared. 
 
@@ -73,7 +73,7 @@ Replace `2.0.0-alpha1` with the latest released version. Then just use the depen
 
 ## Develop
 
-BramblSC is open source and can be found at: https://github.com/Apparatus/BramblSc.
+BramblSC is open source and can be found at: https://github.com/Topl/BramblSc.
 
 To start using BramblSc, add a dependency to your Scala project.
 
@@ -87,4 +87,4 @@ libraryDependencies += "co.topl" % "brambl_2.12" % "1.10.2"
 
 ## Contributing
 
-[Open a PR here!](https://github.com/Apparatus/BramblSc)
+[Open a PR here!](https://github.com/Topl/BramblSc)

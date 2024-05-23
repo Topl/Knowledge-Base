@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 
 ## Linux
 
-While Apparatus's Bifrost node can be run across any distribution or flavor of Linux the below instructions have been tested for any distros using apt as a package manager such as **Ubuntu** or any **Debian-based** distro.
+While Apparatus' Bifrost node can be run across any distribution or flavor of Linux the below instructions have been tested for any distros using apt as a package manager such as **Ubuntu** or any **Debian-based** distro.
 
 ### Installing Dependencies
 
@@ -52,12 +52,12 @@ sdk install java
 
 ### Download and Run Jar
 
-Once you've installed Java, find the latest version of the Bifrost node via our Github, https://github.com/Apparatus/Project-Bifrost/releases/latest 
+Once you've installed Java, find the latest version of the Bifrost node via our Github, https://github.com/Topl/Project-Bifrost/releases/latest 
 
 You can then download the latest version with `wget`, simply switching out the URL to that of your desired release.
 
 ```sh
-wget https://github.com/Apparatus/Bifrost/releases/download/vX.X.X-alpha6/bifrost-node-2.0.0-alpha6.jar 
+wget https://github.com/Topl/Bifrost/releases/download/vX.X.X-alpha6/bifrost-node-2.0.0-alpha6.jar 
 ```
 With the Jar downloaded, the node can be launched with a single line.
 
@@ -94,11 +94,11 @@ At this point you should see your node live in the terminal. To see additional o
 
 Alterntiavely, if you need greater control over your node environment or are interested in contributing to the development of Bifrist, you can compile the node directly from source.
 
-The Bifrost repository can be cloned from https://github.com/Apparatus/Bifrost and compiled by running ``sbt complile`` after all dependencies have been installed.
+The Bifrost repository can be cloned from https://github.com/Topl/Bifrost and compiled by running ``sbt complile`` after all dependencies have been installed.
 
 ## Windows
 
-While Apparatus's node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
+While Apparatus' node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
 
 Detailed instructions for installing and configuring WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install).
 

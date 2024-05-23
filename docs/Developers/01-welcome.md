@@ -3,7 +3,7 @@ id: welcome
 title: "Welcome"
 slug: welcome
 ---
-# Welcome to Apparatus's Developer Portal 
+# Welcome to Apparatus' Developer Portal 
 
 Here you'll find the tools and resources to interact with the Thunder Protocol. While we recommend starting by reading the [Apparatus Whitepaper](https://hackmd.io/@qiYljXhXTQeGAb1RWPghwQ/B1Y0YK0fp) to learn a bit more about our vision, mission, and tech, in short, Apparatus is unlocking the true global potential of web3 by solving the scalability problem for Bitcoin, the world’s most secure currency. With a relentless passion for financial inclusion, to date, Apparatus has powered the creation of a wide range of projects, from [supply chain traceability applications](https://seedtrace.org/case-study-with-koa) to the tokenization of different types of [social](https://apparatus.live/itp/) and [environmental](https://bcarbon.topl.co/) impact.
 

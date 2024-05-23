@@ -7,7 +7,7 @@ slug: "about-apparatus"
 ---
 # Thunder, Built by Apparatus
 
-Apparatus's primary goal is empowering communities and builders, especially in emerging markets, and unlocking economic innovation through decentralized technology. Specifically, Apparatus has developed Thunder, a Layer 2 Bitcoin protocol fully compatible with both the current Bitcoin core as well as the most widely adopted standards already in the space.
+Apparatus' primary goal is empowering communities and builders, especially in emerging markets, and unlocking economic innovation through decentralized technology. Specifically, Apparatus has developed Thunder, a Layer 2 Bitcoin protocol fully compatible with both the current Bitcoin core as well as the most widely adopted standards already in the space.
 
 Our approach is straightforward: to enhance Bitcoin's capabilities and connect developers with key stakeholders to drive economic growth and positive impact. Apparatus Thunder is a platform and toolkit that channels Bitcoin's strengths towards tangible change, enabling a broader range of applications and solutions. This integration signifies more than a technical leap—it embodies our dedication to building a new digital, inclusive economy. 
 
@@ -29,7 +29,7 @@ Apparatus Thunder acts as a versatile conduit to Bitcoin, equipping developers, 
 
 At the heart of our innovation is an eUTXO ledger design and a fully permissionless consensus mechanism, Taktikos. With this, Thunder enables compatibility with emerging client-side protocols in the Bitcoin ecosystem, like RGB, Ordinals, and Taproot/Taro Assets. Developers gain access to industry standards with the added benefits of reduced fees, faster throughput, and quicker finality. These are Thunder's key features:
 
-**Interoperability:** Apparatus's modular design allows for seamless integration with other protocols, including Lightning, Taproot Assets, and Ordinals—amplifying access to capital, resources, and network benefits. We aim to knit together vibrant, interconnected communities.
+**Interoperability:** Apparatus' modular design allows for seamless integration with other protocols, including Lightning, Taproot Assets, and Ordinals—amplifying access to capital, resources, and network benefits. We aim to knit together vibrant, interconnected communities.
 
 **Off-chain Computation:** Our approach prioritizes inclusion. Light nodes ensure those from bandwidth-constrained regions can participate, even from low-resource devices. By shifting computation off-chain, we optimize computational efficiency and affordability, especially vital for participants from the Global South.
 
@@ -46,4 +46,4 @@ But technology, no matter how advanced, is only as good as the community behind 
 **We welcome everyone—developers, entrepreneurs, and visionaries—to join our mission. Let's mold the digital economy's future, driving it towards inclusivity and positive impact. Join us in our commitment to innovate, empower, and #buildgood.**
 
 ## Learn More
-Beyond the documentaiton and tutorials contained in this developer portal, you can learn more about Apparatus's vision, tokenomics, and governance design by reading the [Thunder whitepaper](https://hackmd.io/@qiYljXhXTQeGAb1RWPghwQ/B1Y0YK0fp).
+Beyond the documentaiton and tutorials contained in this developer portal, you can learn more about Apparatus' vision, tokenomics, and governance design by reading the [Thunder whitepaper](https://hackmd.io/@qiYljXhXTQeGAb1RWPghwQ/B1Y0YK0fp).
