@@ -81,8 +81,6 @@ To start using BramblSc, add a dependency to your Scala project.
 libraryDependencies += "co.topl" % "brambl_2.12" % "1.10.2"
 ```
 
-:::info [View documentation](./scala.mdx)
-
 :::
 
 ## Contributing
