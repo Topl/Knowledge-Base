@@ -2,17 +2,19 @@
 id: glossary
 title: "Glossary"
 slug: "glossary"
-excerpt: "Helpful terms and definitions relevant to the Topl protocol and web3 in general."
+excerpt: "Helpful terms and definitions relevant to the Apparatus protocol and web3 in general."
 ---
-# Glossary
-Here are a few terms and definitions relevant to both the Topl protocol and web3 in general.
+import apparatusCircle from '../../static/img/cropped-Circle_Original-1.png';
 
-**Items with a ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png) indicate a term that is specific to the Topl protocol.*
+# Glossary
+Here are a few terms and definitions relevant to both the Apparatus protocol and web3 in general.
+
+**Items with a <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" /> indicate a term that is specific to the Apparatus protocol.*
 
 ## Address
 In the context of blockchain, an address is a unique digital location represented by a string of alphanumeric characters. It serves as a destination for sending or receiving cryptocurrency within the network. Each address is associated with a wallet, which is equivalent to an account in other blockchains. 
 
-In the Topl protocol, addresses are single-use, meaning they are generated and used only once. This enhances security and privacy while maintaining the functionality of sending and receiving transactions.
+In the Apparatus protocol, addresses are single-use, meaning they are generated and used only once. This enhances security and privacy while maintaining the functionality of sending and receiving transactions.
 
 ## AES
 Advanced Encryption Standard, it is a symmetric-key algorithm for encrypting and decrypting data, developed by the National Institute of Standards and Technology (NIST) and its use by the NSA led to it becoming one of the most widely used cryptographic algorithms.
@@ -27,7 +29,7 @@ Advanced Encryption Standard, it is a symmetric-key algorithm for encrypting and
 **Tier 3**: Fully decentralized application where verifiable claims are committed to and posted to a public network. In this model, users become fully autonomous and no longer rely on the organization to construct transactions on their behalf. Organizations make available their business logic on the public network and users execute this logic to construct their own transactions, sign them, and broadcast them to the public network.
 
 ## Asset
-An asset in the Topl Blockchain Protocol is a securely created, verified, and stored unit of value or information. It utilizes cryptography, peer-to-peer networking, and a public ledger to eliminate intermediaries. Generated through transactions, assets represent data or value stored on the blockchain.
+An asset in the Apparatus Blockchain Protocol is a securely created, verified, and stored unit of value or information. It utilizes cryptography, peer-to-peer networking, and a public ledger to eliminate intermediaries. Generated through transactions, assets represent data or value stored on the blockchain.
 
 ## Asset Code
 An Asset Code is a unique identifier for user issued Assets generated from the version, issuer address, and the name provided by the user.
@@ -35,14 +37,14 @@ An Asset Code is a unique identifier for user issued Assets generated from the v
 ## AST
 An AST (Abstract Syntax Tree) is an abstract representation of code that captures its structure and semantics. It provides a hierarchical view of the code's syntax, breaking it down into individual nodes representing expressions, statements, and other language constructs. The AST serves as an intermediary step during compilation or interpretation, enabling analysis, optimization, and transformation of the code. By abstracting away the specific syntax details, the AST facilitates program understanding and manipulation. It is widely used in programming languages, compilers, and static analysis tools to perform tasks like code generation, refactoring, and code quality analysis.
 
-## Bifrost ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-Bifrost is the reference client implementation of the Topl protocol, written in Scala. It is designed to accomplish three primary objectives:
+## Bifrost <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+Bifrost is the reference client implementation of the Apparatus protocol, written in Scala. It is designed to accomplish three primary objectives:
 
 1. Enable the movement and investment of capital from investors in developed economies to businesses in developing economies.
 2. Establish a commodity market that collateralizes a stable currency through storage and redemption mechanisms.
 3. Create a reputation system and historical reference of business behavior.
 
-With Bifrost, the Topl protocol aims to facilitate cross-border capital flow, foster economic growth in developing regions, provide stability through collateralized currency, and promote transparency and trust in business interactions. The Scala-based Bifrost client serves as an essential component in realizing these goals and advancing the mission of the Topl protocol.
+With Bifrost, the Apparatus protocol aims to facilitate cross-border capital flow, foster economic growth in developing regions, provide stability through collateralized currency, and promote transparency and trust in business interactions. The Scala-based Bifrost client serves as an essential component in realizing these goals and advancing the mission of the Apparatus protocol.
 
 
 ## Bitcoin
@@ -57,14 +59,14 @@ The Blockchain Trilemma refers to the challenge in designing a blockchain protoc
 ## Bonding Curve
 A bonding curve is a mathematical function used in DeFi to establish a relationship between the price of a digital asset relative to its supply. Bonding curves adjust a token’s price based on market demand, typically in a nonlinear pattern. As more tokens are bought, the price of an asset with a limited quantity increases for each subsequent buyer.
 
-## Brambl ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-The Topl SDK. Brambl enables users to perform certain tasks, such as generating keys and mnemonics, load wallets, minting assets, and broadcasting transactions – amongst others.
+## Brambl <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+The Apparatus SDK. Brambl enables users to perform certain tasks, such as generating keys and mnemonics, load wallets, minting assets, and broadcasting transactions – amongst others.
 
-## Brambl-CLI ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-Command Line Interface (CLI) for Brambl, the Topl SDK.
+## Brambl-CLI <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+Command Line Interface (CLI) for Brambl, the Apparatus SDK.
 
 ## Burning
-Burning refers to permanently removing tokens from circulation. Often used to control a token’s inflation, burning reduces supply and typically has a positive impact on a token’s value. While technically not possible in UTXO chains like Topl, a similar effect can be achieved by making tokens “unspendable”. In account-based blockchains like Ethereum, tokens can be destroyed through smart contracts, effectively removing them from circulation.
+Burning refers to permanently removing tokens from circulation. Often used to control a token’s inflation, burning reduces supply and typically has a positive impact on a token’s value. While technically not possible in UTXO chains like Apparatus, a similar effect can be achieved by making tokens “unspendable”. In account-based blockchains like Ethereum, tokens can be destroyed through smart contracts, effectively removing them from circulation.
 
 ## Byte
 The byte is a unit of digital information that most commonly consists of eight bits. 
@@ -88,13 +90,13 @@ A consensus mechanism is a fault-tolerant mechanism that is used in blockchain s
 A cryptocurrency is a digital or virtual currency that is secured by cryptography which makes it virtually impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on Blockchain technology. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them immune to government interference or manipulation.
 
 ## Curve25519
-Curve25519 is an elliptic curve cryptography algorithm adopted by Topl for generating public and private key pairs and signing transactions. It provides robust security and efficient performance, making it suitable for cryptographic operations within the Topl blockchain. By utilizing Curve25519, Topl ensures the integrity and confidentiality of transactions, enabling secure communication and authentication between network participants.
+Curve25519 is an elliptic curve cryptography algorithm adopted by Apparatus for generating public and private key pairs and signing transactions. It provides robust security and efficient performance, making it suitable for cryptographic operations within the Apparatus blockchain. By utilizing Curve25519, Apparatus ensures the integrity and confidentiality of transactions, enabling secure communication and authentication between network participants.
 
 ## Daml
 DAML (Digital Asset Modeling Language) is a higher-order contract language used to write business logic in a chain-agnostic manner. It focuses on assets, individual user definitions, and built-in privacy features. DAML provides a versatile framework for expressing complex contractual relationships and automating workflows within distributed ledger systems. It comes with pre-made front-end interfaces that can be extended to enhance the functionality of platforms like Lattice and RaaS. Similar to Cardano's Marlowe and Plutus, DAML enables the development of smart contracts and applications with a strong emphasis on security, privacy, and interoperability across different blockchain networks.
 
-## Dion ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-Previous version of the Topl protocol implemented in Bifrost.
+## Dion <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+Previous version of the Apparatus protocol implemented in Bifrost.
 
 ## E2E
 E2E (End-to-End) testing validates the entire software system, checking its functionality and interactions across different components and layers.
@@ -124,7 +126,7 @@ The Genesis Block is the first block in any blockchain. It is the foundation on 
 Google cloud platform; a cloud compute platform for running servers and accessing other services
 
 ## Genus
-A service that provides a data layer between analytics tools (dApps) and the Topl Blockchain to be used for data analytics and other use cases where querying the blockchain is necessary.
+A service that provides a data layer between analytics tools (dApps) and the Apparatus Blockchain to be used for data analytics and other use cases where querying the blockchain is necessary.
 
 ## Hash
 A hash refers to a unique fixed-size output generated by a hash function. It plays a crucial role in blockchain technology by providing a digital fingerprint of blocks, transactions, and other data stored on the blockchain. Hashes ensure the integrity of blockchain data, as even a small change in the input data would produce a completely different hash output. This property makes hashes useful for verifying the integrity of blocks, detecting any tampering attempts, and linking blocks together in a secure and immutable manner. By including hashes in the blockchain, it becomes practically impossible to modify past data without detection, enhancing the security and trustworthiness of the distributed ledger.
@@ -157,10 +159,10 @@ In cryptography and computer science, a hash tree or Merkle tree is a tree in wh
 An incentive-driven, probabilistic consensus algorithm where chain extension eligibility is determined via a race condition, originally presented in the Bitcoin whitepaper.
 
 ## Nodes
-Nodes are the machines that store and maintain the state of the Topl Blockchain. They play a crucial role in the decentralized network by communicating with each other to share information about the blockchain state and any new updates. The collective network formed by these nodes is what constitutes the Topl network. Nodes collaborate to validate transactions, propagate data across the network, and ensure the integrity and consensus of the blockchain. By participating in the network, nodes contribute to the security and decentralization of the Topl Blockchain, creating a robust and resilient system for storing and processing data.
+Nodes are the machines that store and maintain the state of the Apparatus Blockchain. They play a crucial role in the decentralized network by communicating with each other to share information about the blockchain state and any new updates. The collective network formed by these nodes is what constitutes the Apparatus network. Nodes collaborate to validate transactions, propagate data across the network, and ensure the integrity and consensus of the blockchain. By participating in the network, nodes contribute to the security and decentralization of the Apparatus Blockchain, creating a robust and resilient system for storing and processing data.
 
 ## P2PKH
-P2PKH (Pay to Public Key Hash) is a basic instruction on the blockchain that signifies "pay to this Topl address." It is a commonly used transaction script in blockchain systems. When initiating a transfer of assets, P2PKH specifies the destination address where the assets should be sent. It involves the creation of a hash of the recipient's public key, which serves as the address for receiving the assets. P2PKH provides a secure and convenient way for users to transfer assets to each other within the blockchain network, ensuring the correct allocation of funds while preserving the privacy of the recipient's public key.
+P2PKH (Pay to Public Key Hash) is a basic instruction on the blockchain that signifies "pay to this Apparatus address." It is a commonly used transaction script in blockchain systems. When initiating a transfer of assets, P2PKH specifies the destination address where the assets should be sent. It involves the creation of a hash of the recipient's public key, which serves as the address for receiving the assets. P2PKH provides a secure and convenient way for users to transfer assets to each other within the blockchain network, ensuring the correct allocation of funds while preserving the privacy of the recipient's public key.
 
 ## Payment Key
 Cryptographic key, needed by all, responsible for authorizing moving coins (or tokens)A payment key is a cryptographic key required by all users to authorize the movement of coins or tokens within a blockchain network. It serves as a form of digital signature that proves ownership and provides the necessary permission to initiate transactions. When a user wants to send coins or tokens, they use their payment key to sign the transaction, demonstrating their authority to transfer the funds. This key plays a critical role in securing and validating transactions, ensuring that only authorized individuals can move coins within the blockchain network.
@@ -181,10 +183,10 @@ Proof-of-Stake (PoS) is a consensus algorithm used in blockchain networks to ach
 Proof-of-Work (PoW) is a consensus algorithm used in blockchain networks to validate and secure transactions. In PoW, miners compete to solve complex mathematical puzzles through computational power. The first miner to find a valid solution broadcasts it to the network, which verifies the correctness of the solution. Once validated, the miner adds a new block of transactions to the blockchain and is rewarded with newly minted tokens or transaction fees. PoW is characterized by its resource-intensive nature, requiring significant computational power and energy consumption. This ensures the integrity of the blockchain by making it economically costly to manipulate or alter past transactions. PoW has been widely used in cryptocurrencies like Bitcoin and serves as a foundation for decentralized and trustless consensus mechanisms.
 
 ## Proposition
-On Topl, the term "proposition" refers to the methodology employed to generate the public key used for signing transactions.
+On Apparatus, the term "proposition" refers to the methodology employed to generate the public key used for signing transactions.
 
 ## Provider
-A **provider** is an abstraction of a connection to a Topl network, providing a concise, consistent interface to standard Topl node functionality.
+A **provider** is an abstraction of a connection to a Apparatus network, providing a concise, consistent interface to standard Apparatus node functionality.
 
 ## Quadratic funding
 Quadratic Funding is a mechanism for public goods funding, where community-determined match funding amplifies the contribution towards a project. The more contributors, rather than the amount contributed, results in higher match funding, balancing majority and minority interests.
@@ -205,7 +207,7 @@ Rollups are Layer 2 scaling solutions that bundle multiple transactions together
 Slashing refers to a penalty mechanism in blockchain networks, particularly in Proof-of-Stake (PoS) consensus algorithms. It is designed to discourage malicious or negligent behavior by validators. If a validator is found to have violated the protocol rules, such as attempting double-spending or going offline for an extended period, they may face slashing. Slashing typically involves a reduction in the validator's stake or the confiscation of a portion of their tokens as a penalty. This mechanism ensures the security and integrity of the blockchain network by deterring validators from engaging in harmful actions and incentivizing them to act honestly and responsibly.
 
 ## Slot
-A "slot" is the atomic time unit used for coordinating activities within an epoch. An epoch represents a larger time period composed of multiple slots. Each slot within an epoch has a fixed duration, such as 1 second for Topl and 2 seconds for Cardano. Slots serve as the fundamental building blocks within an epoch, providing a consistent time reference for block production, transaction validation, and network synchronization. By organizing time into slots and epochs, the Ouroboros protocol ensures the orderly progression of blockchain activities while allowing for efficient consensus and network management. Slots and epochs are key components that contribute to the secure and reliable operation of the blockchain network, enabling participants to coordinate their actions and maintain the integrity of the system over extended periods of time.
+A "slot" is the atomic time unit used for coordinating activities within an epoch. An epoch represents a larger time period composed of multiple slots. Each slot within an epoch has a fixed duration, such as 1 second for Apparatus and 2 seconds for Cardano. Slots serve as the fundamental building blocks within an epoch, providing a consistent time reference for block production, transaction validation, and network synchronization. By organizing time into slots and epochs, the Ouroboros protocol ensures the orderly progression of blockchain activities while allowing for efficient consensus and network management. Slots and epochs are key components that contribute to the secure and reliable operation of the blockchain network, enabling participants to coordinate their actions and maintain the integrity of the system over extended periods of time.
 
 ## Smart contract
 A smart contract is a self-executing contract with the terms of agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized Blockchain network. The code controls the execution, and transactions are trackable and irreversible. Smart contracts permit trusted transactions and agreements to be carried out among disparate anonymous parties without the need for a central authority, legal system, or external enforcement mechanism.
@@ -222,23 +224,23 @@ Staking refers to the process of participating in a Proof-of-Stake (PoS) blockch
 ## Staking Key
 A "staking key" is a cryptographic key used by stakers to securely extend the blockchain. It enables stakers to participate in block production and validation, ensuring the integrity and security of the network.
 
-## Taktikos ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-The regularized Nakamoto-style proof-of-stake consensus algorithm that powers the Topl protocol. The Taktikos staking mechanism reduces variance in the distribution of time intervals between blocks by means of a time-varying leader election process. This quality of regularization significant improvements for transaction throughput and finality guarantees in a proof-of-stake protocol.
+## Taktikos <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+The regularized Nakamoto-style proof-of-stake consensus algorithm that powers the Apparatus protocol. The Taktikos staking mechanism reduces variance in the distribution of time intervals between blocks by means of a time-varying leader election process. This quality of regularization significant improvements for transaction throughput and finality guarantees in a proof-of-stake protocol.
 
-## Tetra ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-Next major release of Topl protocol. Introduces Taktikos and additional features (exUTxO, event sourcing, CPE refactor)
+## Tetra <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+Next major release of Apparatus protocol. Introduces Taktikos and additional features (exUTxO, event sourcing, CPE refactor)
 
 ## Token Generation Event (TGE)
 The Token Generation Event, or TGE, is synonymous with the genesis block creation and represents the launch of the chain’s mainnet.
 
-## Topl blockchain address ![(Topl-specific)](https://topl.co/wp-content/uploads/2023/06/topl_leaf-e1685656880285.png)
-A unique alphanumeric sequence used in the Topl blockchain network, similar to an email address. It is encoded using the Base58 encoding scheme. The Topl address serves as a specific destination on the network where Topl cryptocurrency can be sent. When making transactions on the Topl network, individuals share their Topl addresses to send and receive funds. For instance, if you want to transact with your friend Bob on the Topl network, Bob will provide you with his Topl address, enabling you to send cryptocurrency to him using that address. Topl addresses facilitate secure and convenient transactions within the Topl blockchain ecosystem.
+## Apparatus blockchain address <img src={apparatusCircle} alt="(Apparatus-specific)" width="20" />
+A unique alphanumeric sequence used in the Apparatus blockchain network, similar to an email address. It is encoded using the Base58 encoding scheme. The Apparatus address serves as a specific destination on the network where Apparatus cryptocurrency can be sent. When making transactions on the Apparatus network, individuals share their Apparatus addresses to send and receive funds. For instance, if you want to transact with your friend Bob on the Apparatus network, Bob will provide you with his Apparatus address, enabling you to send cryptocurrency to him using that address. Apparatus addresses facilitate secure and convenient transactions within the Apparatus blockchain ecosystem.
 
 ## Transaction
 A "transaction" refers to the exchange of crypto-assets recorded on the blockchain. It relies on the blockchain's state for validity and offers security and transparency. On-chain transactions are immutable once verified and recorded but may involve fees and slower processing times.
 
 ## Transaction fees
-Transaction fees on the Topl network are charges incurred by users when they perform transactions on the blockchain. Forgers, who validate and bundle transactions into blocks, receive a block reward and the accumulated transaction fees as compensation for their services. The current transaction fee is set at 1 LVL, but as decentralization progresses, the fee will be determined by the market value of the transaction. Transaction fees play a vital role in incentivizing forgers and maintaining the security and integrity of the Topl blockchain network.
+Transaction fees on the Apparatus network are charges incurred by users when they perform transactions on the blockchain. Forgers, who validate and bundle transactions into blocks, receive a block reward and the accumulated transaction fees as compensation for their services. The current transaction fee is set at 1 LVL, but as decentralization progresses, the fee will be determined by the market value of the transaction. Transaction fees play a vital role in incentivizing forgers and maintaining the security and integrity of the Apparatus blockchain network.
 
 ## Treasury
 A treasury is a fund controlled by a blockchain protocol. It holds native tokens for various purposes like funding development, marketing, and community initiatives. Decisions on fund allocation are made through community governance mechanisms. It promotes self-sustainability and decentralized decision-making.

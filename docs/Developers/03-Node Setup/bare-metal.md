@@ -16,15 +16,15 @@ import TabItem from '@theme/TabItem';
 :::info Definitions to know
 
 <Tabs>
-  <TabItem value="Bifrost" label="Bifrost">Bifrost is the reference client implementation of the Topl protocol node, written in Scala.</TabItem>
-  <TabItem value="Genus" label="Genus">A service that provides a data layer between the Topl Blockchain and wallets, block explorers, or other dApps that require easy and well structured access to chain data.</TabItem>
+  <TabItem value="Bifrost" label="Bifrost">Bifrost is the reference client implementation of the Apparatus protocol node, written in Scala.</TabItem>
+  <TabItem value="Genus" label="Genus">A service that provides a data layer between the Apparatus Blockchain and wallets, block explorers, or other dApps that require easy and well structured access to chain data.</TabItem>
 </Tabs>
 
 :::
 
 ## Linux
 
-While Topl's Bifrost node can be run across any distribution or flavor of Linux the below instructions have been tested for any distros using apt as a package manager such as **Ubuntu** or any **Debian-based** distro.
+While Apparatus' Bifrost node can be run across any distribution or flavor of Linux the below instructions have been tested for any distros using apt as a package manager such as **Ubuntu** or any **Debian-based** distro.
 
 ### Installing Dependencies
 
@@ -98,7 +98,7 @@ The Bifrost repository can be cloned from https://github.com/Topl/Bifrost and co
 
 ## Windows
 
-While Topl's node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
+While Apparatus' node cannot yet be run natively on Windows devices. Bifrost can be installed and run using the Windows Subsystem for Linux (WSL).
 
 Detailed instructions for installing and configuring WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install).
 

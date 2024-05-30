@@ -6,4 +6,4 @@ tags:
 ---
 
 
-[Maven releases for Topl can be found here](https://central.sonatype.com/namespace/co.topl)
+[Maven releases for Apparatus can be found here](https://central.sonatype.com/namespace/co.topl)

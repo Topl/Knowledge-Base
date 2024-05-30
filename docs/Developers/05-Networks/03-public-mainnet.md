@@ -5,7 +5,7 @@ slug: public-mainnet
 ---
 
 :::warning
-The Thunder mainnet should currently be considered to still be in experimental beta. While working hard to maintain network stability and liveness, Topl cannot currently make any guarantees. Proceed at your own risk.
+The Thunder mainnet should currently be considered to still be in experimental beta. While working hard to maintain network stability and liveness, Apparatus cannot currently make any guarantees. Proceed at your own risk.
 :::
 
 ## gRPC Endpoint

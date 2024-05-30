@@ -1,5 +1,5 @@
-# Topl's Knowledge Base
-The central repository for documentation and code examples to build on the Topl blockchain.
+# Apparatus' Knowledge Base
+The central repository for documentation and code examples to build on the Apparatus blockchain.
 
 # Website
 

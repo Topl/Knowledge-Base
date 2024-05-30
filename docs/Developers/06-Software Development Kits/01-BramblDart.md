@@ -8,10 +8,10 @@ tags:
   - sdk
 ---
 
-A [Dart][dart] library that supports the [Topl][topl] blockchain.
+A [Dart][dart] library that supports the [Apparatus][apparatus] blockchain.
 
 [dart]: https://www.dartlang.org
-[topl]: https://topl.co
+[apparatus]: https://apparatus.live
 
 # BramblDart
 A dart library that connects via gRPC to interact with the Thunder protocol. It connects
@@ -79,7 +79,7 @@ Keystore keystore = KeyStore.createNew(credentials, 'password', random);
 print(keystore.toJson());
 ```
 
-You can also write `keystore.toJson()` to file which you can later open with [BramblSC](https://github.com/Topl/Bifrost/wiki/BramblSc-examples) and potentially other Topl API libraries in the future.
+You can also write `keystore.toJson()` to file which you can later open with [BramblSC](https://github.com/Topl/Bifrost/wiki/BramblSc-examples) and potentially other Apparatus API libraries in the future.
 
 #### Custom credentials
 If you want to integrate `brambldart` with other wallet providers, you can implement
@@ -89,7 +89,7 @@ If you want to integrate `brambldart` with other wallet providers, you can imple
 The library won't send signed transactions to forgers itself. Instead,
 it relies on an RPC client to do that. You can use a public RPC API like
 [baas](https://beta.topl.services), or, if you just want to test things out, use a private testnet with
-[bifrost](https://docs.topl.co/v1.4.0/docs/installing-bifrost). All of these options will give you
+[bifrost](https://docs.apparatus.live/v1.4.0/docs/installing-bifrost). All of these options will give you
 an RPC endpoint to which the library can connect.
 
 ```dart
@@ -109,13 +109,13 @@ var httpClient = Dio(BaseOptions(
 var bramblClient = BramblClient(httpClient: httpClient, basePathOverride: apiUrl);
 var credentials = bramblClient.credentialsFromPrivateKey(privateKey, networkId, propositionType);
 
-// You can now call rpc methods. This one will query the amount of Topl tokens you own
+// You can now call rpc methods. This one will query the amount of Apparatus tokens you own
 Balance balance = bramblClient.getBalance(credentials.address);
 print(balance.toString());
 ```
 
 ## Sending transactions
-Of course, this library supports creating, signing and sending Topl
+Of course, this library supports creating, signing and sending Apparatus
 transactions:
 
 ```dart
