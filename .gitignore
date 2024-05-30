@@ -22,6 +22,32 @@ yarn-error.log*
 
 # IDE
 .idea
+.vscode
 
 # Nix
 .direnv
+
+# Docusaurus remote content plugin downloads
+## Manually add the files that are downloaded by the remote content plugin here
+docs/Developers/02-Quickstart Tutorial/create-tx.md
+docs/Developers/02-Quickstart Tutorial/fund-wallet.md
+docs/Developers/02-Quickstart Tutorial/mint-asset.md
+docs/Developers/02-Quickstart Tutorial/recover-wallet.md
+
+docs/Developers/03-Node Setup/bare-metal.md
+docs/Developers/03-Node Setup/docker.md
+docs/Developers/03-Node Setup/helm-kubernetes.md
+
+docs/Developers/04-CLI/intro.md
+
+docs/Developers/05-Networks/connect-to-the-testnet.md
+docs/Developers/05-Networks/connect-to-toplnet.md
+docs/Developers/05-Networks/private-network.md
+
+docs/Developers/06-Software Development Kits/getting-started.mdx
+
+docs/Developers/how-tos/
+
+docs/current/how-tos/
+
+static/img/annulus.png

@@ -1,8 +1,0 @@
-{
-  "label": "How Tos",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "How to perform different task using the CLI."
-  }
-}

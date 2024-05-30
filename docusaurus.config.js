@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 const math = require("remark-math");
 const katex = require("rehype-katex");
@@ -15,7 +16,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/cropped-Circle_Original-1.png",
+  favicon: "img/apparatus-favicon.png",
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -140,8 +141,9 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Apparatus`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
+        additionalLanguages: ['java', 'scala']
       },
       algolia: {
         // The application ID provided by Algolia
@@ -156,6 +158,167 @@ const config = {
         contextualSearch: true,
       },
     }),
+  plugins: [
+    // Pull Bifrost docs from GitHub
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        name: "bifrost-images", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/Bifrost/dev/documentation/static/img", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "static/img", // the base directory to output to.
+        documents: [
+          "annulus.png",
+        ], // the file names to download
+        requestConfig: { responseType: "arraybuffer" },
+      },
+    ],
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bifrost-docs-networks", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/Bifrost/dev/documentation/docs/reference/Networks", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/05-Networks", // the base directory to output to.
+        documents: [
+          "connect-to-the-testnet.md", 
+          "connect-to-toplnet.md",
+          "private-network.md"
+        ], // the file names to download
+        modifyContent(filename, content) {
+          return {
+            content: `${content}
+:::info
+
+Find more information here! [Bifrost Documentation](https://topl.github.io/Bifrost/)
+
+:::`
+          }
+        }
+      },
+    ],
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bifrost-docs-setup", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/Bifrost/dev/documentation/docs/reference/Installing Your Node", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/03-Node Setup", // the base directory to output to.
+        documents: [
+          "bare-metal.md",
+          "docker.md",
+          "helm-kubernetes.md"
+        ], // the file names to download
+        modifyContent(filename, content) {
+          return {
+            content: `${content}
+:::info
+
+Find more information here! [Bifrost Documentation](https://topl.github.io/Bifrost/)
+
+:::`
+          }
+        }
+      },
+    ],
+    // BramblSC docs
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bramblsc-docs-reference", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/BramblSc/main/documentation/docs/reference", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/06-Software Development Kits", // the base directory to output to.
+        documents: [
+          "getting-started.mdx"
+        ], // the file names to download
+        modifyContent(filename, content) {
+        var modifiedContent = content;
+        
+        modifiedContent = modifiedContent.replaceAll('../service-kit/big-picture', 'https://topl.github.io/BramblSc/docs/current/service-kit/big-picture');
+        return {
+          content: `${modifiedContent}
+:::info
+
+Find more information here! [BramblSc Documentation](https://topl.github.io/BramblSc/)
+
+:::`
+          }
+        }
+      },
+    ],
+    // Brambl-cli docs
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bramblcli-docs-quickstart", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/brambl-cli/main/microsite/docs", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/04-CLI", // the base directory to output to.
+        documents: [
+          "intro.md"
+        ], // the file names to download
+        modifyContent(filename, content) {
+          return {
+            content: `${content}
+:::info
+
+Find more information here! [Brambl-cli Documentation](https://topl.github.io/brambl-cli/)
+
+:::`
+          }
+        }
+      },
+    ],
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bramblcli-docs-tutorials", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/brambl-cli/main/microsite/docs/tutorials", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/02-Quickstart Tutorial", // the base directory to output to.
+        documents: [
+          "fund-wallet.md",
+          "create-tx.md",
+          "mint-asset.md",
+          "recover-wallet.md"
+        ], // the file names to download
+        modifyContent(filename, content) {
+        var modifiedContent = content;
+        
+        modifiedContent = modifiedContent.replaceAll('/docs/current/how-tos/prove-simple-tx', 'https://topl.github.io/brambl-cli/docs/current/how-tos/prove-simple-tx');
+        modifiedContent = modifiedContent.replaceAll('/docs/current/how-tos/broadcast-tx', 'https://topl.github.io/brambl-cli/docs/current/how-tos/broadcast-tx');
+        return {
+          content: `${modifiedContent}
+:::info
+
+Find more information here! [Brambl-cli Documentation](https://topl.github.io/brambl-cli/)
+
+:::`
+          }
+        }
+      },
+    ],
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "bramblcli-docs-tutorial-how-tos-templates", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/Topl/brambl-cli/main/microsite/docs/how-tos", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/Developers/how-tos", // the base directory to output to.
+        documents: [
+          "_broadcast-tx.mdx",
+          "_check-balance.mdx",
+          "_current-address.mdx",
+          "_initialize-wallet.mdx",
+          "_list-interactions.mdx",
+          "_prove-simple-tx.mdx",
+          "_reset-interaction.mdx",
+          "_simple-lvl-tx.mdx",
+          "_sync-wallet.mdx",
+        ],
+      },
+    ],
+  ],
 };
 
 module.exports = config;

@@ -13,11 +13,11 @@ use a public testnet node.
 
 To create a transaction, you need to have a wallet with some funds. You can 
 create a wallet following the instructions in the
-[Initialize Wallet](../CLI/How-tos/initialize-wallet) how to. For people
+[Initialize Wallet](https://topl.github.io/brambl-cli/docs/current/how-tos/initialize-wallet) how to. For people
 to send you funds, you need to share your address with them. You can see how
 to get your current address using the 
-[Get the Current Address](../CLI/How-tos/current-address). You can check you balance
-using the [Check Balance](../CLI/How-tos/check-balance) how to.
+[Get the Current Address](https://topl.github.io/brambl-cli/docs/current/how-tos/current-address). You can check you balance
+using the [Check Balance](https://topl.github.io/brambl-cli/docs/current/how-tos/check-balance) how to.
 
 ## Launch a Private Node or use a Public Testnet Node
 

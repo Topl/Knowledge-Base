@@ -1,8 +1,0 @@
-{
-  "label": "CLI Reference",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "The CLI reference for the current version of the Brambl CLI."
-  }
-}
