@@ -4,7 +4,7 @@ title: "Glossary"
 slug: "glossary"
 excerpt: "Helpful terms and definitions relevant to the Apparatus protocol and web3 in general."
 ---
-import apparatusCircle from '../../static/img/cropped-Circle_Original-1.png';
+import apparatusCircle from '../../static/img/apparatus-favicon.png';
 
 # Glossary
 Here are a few terms and definitions relevant to both the Apparatus protocol and web3 in general.

@@ -20,7 +20,7 @@ const FeatureList = [
     title: "Build a dApp",
     Svg: require("../../static/img/cube-on-phone.svg").default,
     description: <>Start building using our SDKs or Daml for smart contracts.</>,
-    link: "Developers/Software Development Kits/brambldart",
+    link: "Developers/Software Development Kits/getting-started",
   },
   {
     title: "Run a node",
