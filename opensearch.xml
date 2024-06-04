@@ -4,7 +4,7 @@
   <ShortName>Apparatus</ShortName>
   <Description>Search Apparatus</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://docs.apparatus.live/img/cropped-Circle_Original-1.png</Image>
+  <Image width="16" height="16" type="image/x-icon">http://docs.apparatus.live/img/apparatus-favicon.png</Image>
   <Url type="text/html" method="get" template="http://docs.apparatus.live/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="http://docs.apparatus.live/opensearch.xml" />
   <moz:SearchForm>http://docs.apparatus.live/</moz:SearchForm>

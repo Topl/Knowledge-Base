@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportal=self.webpackChunkportal||[]).push([[7716],{1447:e=>{e.exports=JSON.parse('{"label":"maven","permalink":"/tags/maven","allTagsPath":"/tags","count":1,"items":[{"id":"Developers/Maven Packages/maven","title":"Maven Releases","description":"Maven releases for Apparatus can be found here","permalink":"/Developers/Maven Packages/maven"}]}')}}]);
